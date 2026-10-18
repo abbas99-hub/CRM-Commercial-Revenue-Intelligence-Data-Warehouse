@@ -6,14 +6,30 @@ A SQL-first analytics engineering project that turns CRM sales data into a gover
 
 ## Business problem
 
-Commercial teams need consistent answers to questions such as:
+This project develops a CRM-based commercial intelligence foundation that consolidates sales opportunities, leads, activities, products, accounts, sales representatives, and targets into a structured analytical data warehouse.
 
-- How much revenue was won in a period, and how does it compare with target?
-- What is the value of open and probability-weighted pipeline?
-- Which open deals are past their expected close date?
-- How does win rate vary by month and sales representative?
-- How are leads converting, and what activity volume is recorded?
-- Can an AI assistant answer these questions without direct access to raw tables or unrestricted SQL execution?
+It establishes consistent definitions for won revenue, open pipeline, weighted pipeline, win rate, lead conversion, sales activity, and target attainment. Data-quality controls flag conflicting opportunity records rather than silently counting them, while reusable reporting views provide a consistent starting point for BI reporting and future AI-assisted analysis.
+
+### Technical overview
+
+Technical architecture
+
+1. Source and ingestion
+11 CRM-related CSV entities covering opportunities, leads, activities, products, accounts, contacts, sales representatives, campaigns, dates, and targets.
+
+2. Data quality and transformation
+Type standardization, required-field checks, business-rule validation, target reconciliation, and quarantine for conflicting opportunity records.
+
+3. Dimensional warehouse
+SQL Server Bronze, Silver, and Gold layers with fact tables for opportunities, leads, activities, product lines, and sales targets, supported by shared dimensions.
+
+4. Commercial KPI layer
+Reusable SQL views for won revenue, open and weighted pipeline, win rate, target achievement, opportunity ageing, lead conversion, sales activity, and product-line margin.
+
+5. Governed AI-ready access
+Business-named views, KPI definitions, natural-language question examples, parameterized query intents, and a least-privilege permissions design.
+
+Technical stack: SQL Server, T-SQL, Python, CSV data processing, dimensional data modeling, data-quality validation, commercial KPI engineering, and AI-ready query governance.
 
 ## Architecture
 
