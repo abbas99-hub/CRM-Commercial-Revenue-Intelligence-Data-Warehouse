@@ -1,4 +1,4 @@
 Metric,Period,WonDeals,LostDeals,WinRatePct,WonRevenueAED,AverageWonDealAED,Notes
-Closed outcome performance,2024,698,546,56.11,30610900.0,43855.16,Actual close year; conflicting duplicate opportunity IDs excluded; source currency unverified.
-Closed outcome performance,2025,917,771,54.32,41261200.0,44995.86,Actual close year; conflicting duplicate opportunity IDs excluded; source currency unverified.
-Closed outcome performance,2026,1033,786,56.79,44818900.0,43387.12,Actual close year; conflicting duplicate opportunity IDs excluded; source currency unverified.
+Closed outcome performance,2024,698,546,56.11,30610900.0,43855.16,Actual close year; conflicting duplicate opportunity IDs excluded.
+Closed outcome performance,2025,917,771,54.32,41261200.0,44995.86,Actual close year; conflicting duplicate opportunity IDs excluded.
+Closed outcome performance,2026,1033,786,56.79,44818900.0,43387.12,Actual close year; conflicting duplicate opportunity IDs excluded.
