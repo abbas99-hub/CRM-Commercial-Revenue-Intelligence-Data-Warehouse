@@ -52,7 +52,7 @@ More diagrams: [data flow SVG](docs/images/data_flow.svg) · [editable architect
 
 ## Source data and data dictionary
 
-The `data/sample/` folder contains the 11 core CSV entities plus source dictionary and dataset summary. The 11 core entities total **93,837 rows**:
+The `data/sample/` folder contains the 11 core CSV data extracted from Microsoft Dynamics 365 CRM plus source dictionary and dataset summary. The 11 core entities total **93,837 rows**:
 
 | Entity | Rows | Intended grain |
 |---|---:|---|
