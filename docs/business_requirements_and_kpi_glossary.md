@@ -1,4 +1,4 @@
-# Phase 1 — Business Requirements and KPI Definitions (Draft)
+# Phase 1 — Business Requirements and KPI Definitions
 
 ## Project goal
 Build a reproducible SQL-based commercial revenue data warehouse from CRM-style CSV sources, with Bronze/Silver/Gold layers and a governed Gold layer suitable for SQL analytics, Power BI, and future AI-assisted natural-language querying.
