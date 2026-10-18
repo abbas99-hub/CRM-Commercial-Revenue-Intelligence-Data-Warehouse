@@ -1,0 +1,8 @@
+check,affected_rows,rule
+Closed stage versus ForecastCategory,5521,Closed Won/Closed Lost should be reviewed against ForecastCategory=Closed; confirm business semantics before enforcing.
+Unknown opportunity stage,25,Map or quarantine unknown stage values after business owner confirmation.
+Zero estimated revenue,40,"Investigate whether zero is valid, placeholder, or data error."
+Probability outside 0–100,0,ProbabilityPct should be within 0–100; no violations observed.
+Converted status but missing ConvertedDate,0,Converted leads should generally have a conversion date; verify source process.
+Non-converted lead with ConvertedDate,0,Investigate any conversion dates on non-converted lead statuses.
+Repeated OpportunityID + ProductID pairs,406,May represent multiple lines for the same product; do not treat pair as unique key without a line identifier or business confirmation.

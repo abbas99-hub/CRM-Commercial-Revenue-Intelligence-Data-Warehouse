@@ -1,0 +1,10 @@
+table,candidate_key,row_count,distinct_values_including_null,null_count,duplicate_rows_in_key,duplicate_key_values
+Accounts,AccountID,500,500,0,0,0
+Activities,ActivityID,40000,40000,0,0,0
+Campaigns,CampaignID,30,30,0,0,0
+Contacts,ContactID,1500,1500,0,0,0
+Date,Date,1096,1096,0,0,0
+Leads,LeadID,5000,5000,0,0,0
+Opportunities,OpportunityID,15000,14965,0,70,35
+Products,ProductID,100,100,0,0,0
+SalesReps,SalesRepID,50,50,0,0,0

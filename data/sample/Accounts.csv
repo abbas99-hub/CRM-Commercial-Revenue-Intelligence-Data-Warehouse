@@ -1,0 +1,501 @@
+AccountID,AccountName,Industry,Country,City,Segment,TerritoryID,AnnualRevenue,Employees,AccountStatus
+ACC0001,Customer 0001,Real Estate,Qatar,Manama,Enterprise,T01,16560732.0,92,Active
+ACC0002,Customer 0002,Education,Saudi Arabia,Doha,Enterprise,T02,9053286.0,495,Inactive
+ACC0003,Customer 0003,Banking,UAE,Muscat,SMB,T05,1658589.0,137,Active
+ACC0004,Customer 0004,Hospitality,UAE,Muscat,Enterprise,T01,6965383.0,196,Active
+ACC0005,Customer 0005,Real Estate,UAE,Sharjah,Mid-Market,T03,11711041.0,694,Inactive
+ACC0006,Customer 0006,Government,Oman,Muscat,Mid-Market,T02,5690179.0,132,Active
+ACC0007,Customer 0007,Telecom,Saudi Arabia,Doha,SMB,T01,10087880.0,229,Active
+ACC0008,Customer 0008,Telecom,UAE,Kuwait City,Enterprise,T10,7937009.0,192,Active
+ACC0009,Customer 0009,Education,Oman,Kuwait City,Mid-Market,T04,8333164.0,398,Active
+ACC0010,Customer 0010,Technology,Saudi Arabia,Muscat,Enterprise,T04,8017022.0,531,Active
+ACC0011,Customer 0011,Technology,UAE,Dubai,Enterprise,T09,9782643.0,301,Active
+ACC0012,Customer 0012,Education,UAE,Jeddah,Mid-Market,T10,11443544.0,214,Active
+ACC0013,Customer 0013,Education,Qatar,Dubai,Enterprise,T10,1067926.0,239,Active
+ACC0014,Customer 0014,Banking,Saudi Arabia,Abu Dhabi,Mid-Market,T07,11731101.0,198,Active
+ACC0015,Customer 0015,Retail,UAE,Doha,Enterprise,T04,5871822.0,140,Active
+ACC0016,Customer 0016,Manufacturing,UAE,Abu Dhabi,Mid-Market,T01,7482664.0,93,Active
+ACC0017,Customer 0017,Manufacturing,UAE,Riyadh,Enterprise,T03,4255998.0,588,Active
+ACC0018,Customer 0018,Technology,UAE,Kuwait City,SMB,T01,23422500.0,492,Active
+ACC0019,Customer 0019,Education,Qatar,Kuwait City,Mid-Market,T10,7370779.0,331,Active
+ACC0020,Customer 0020,Technology,Oman,Jeddah,SMB,T07,2111796.0,85,Active
+ACC0021,Customer 0021,Technology,Oman,Manama,SMB,T04,9122809.0,481,Active
+ACC0022,Customer 0022,Retail,Qatar,Abu Dhabi,Enterprise,T02,408621.0,128,Inactive
+ACC0023,Customer 0023,Retail,UAE,Jeddah,Enterprise,T08,19065217.0,340,Active
+ACC0024,Customer 0024,Government,UAE,Sharjah,Mid-Market,T06,17516845.0,202,Active
+ACC0025,Customer 0025,Manufacturing,Saudi Arabia,Dubai,Enterprise,T03,31955305.0,336,Active
+ACC0026,Customer 0026,Technology,UAE,Jeddah,SMB,T09,6403756.0,321,Active
+ACC0027,Customer 0027,Government,Oman,Riyadh,Enterprise,T05,3955536.0,127,Active
+ACC0028,Customer 0028,Hospitality,UAE,Doha,Mid-Market,T08,2308896.0,743,Active
+ACC0029,Customer 0029,Real Estate,UAE,Manama,Mid-Market,T06,1834588.0,115,Active
+ACC0030,Customer 0030,Manufacturing,Bahrain,Kuwait City,Mid-Market,T04,27532600.0,539,Active
+ACC0031,Customer 0031,Technology,UAE,Abu Dhabi,Enterprise,T07,2190999.0,639,Active
+ACC0032,Customer 0032,Technology,Bahrain,Doha,Enterprise,T10,4538323.0,584,Active
+ACC0033,Customer 0033,Education,Kuwait,Jeddah,Mid-Market,T06,7614553.0,145,Active
+ACC0034,Customer 0034,Government,Qatar,Abu Dhabi,Mid-Market,T03,3753553.0,483,Active
+ACC0035,Customer 0035,Banking,UAE,Jeddah,Enterprise,T09,5033117.0,277,Active
+ACC0036,Customer 0036,Healthcare,UAE,Doha,Mid-Market,T08,8743801.0,388,Active
+ACC0037,Customer 0037,Government,UAE,Kuwait City,Enterprise,T10,25826487.0,138,Active
+ACC0038,Customer 0038,Retail,UAE,Dubai,Mid-Market,T04,14637428.0,395,Active
+ACC0039,Customer 0039,Healthcare,Saudi Arabia,Doha,Mid-Market,T02,7288539.0,447,Active
+ACC0040,Customer 0040,Telecom,Saudi Arabia,Kuwait City,SMB,T04,1091019.0,681,Active
+ACC0041,Customer 0041,Healthcare,Saudi Arabia,Jeddah,Mid-Market,T01,9635761.0,148,Active
+ACC0042,Customer 0042,Real Estate,Bahrain,Abu Dhabi,Enterprise,T07,10396871.0,140,Active
+ACC0043,Customer 0043,Manufacturing,Kuwait,Jeddah,SMB,T04,12631914.0,138,Active
+ACC0044,Customer 0044,Technology,UAE,Abu Dhabi,Enterprise,T08,8714445.0,576,Active
+ACC0045,Customer 0045,Telecom,Kuwait,Sharjah,Enterprise,T01,5251513.0,3304,Active
+ACC0046,Customer 0046,Real Estate,UAE,Riyadh,Enterprise,T09,4822049.0,537,Inactive
+ACC0047,Customer 0047,Telecom,UAE,Jeddah,Enterprise,T09,1722603.0,303,Inactive
+ACC0048,Customer 0048,Manufacturing,UAE,Jeddah,Mid-Market,T07,10064433.0,934,Active
+ACC0049,Customer 0049,Technology,Qatar,Dubai,Enterprise,T07,1724656.0,180,Active
+ACC0050,Customer 0050,Technology,UAE,Jeddah,Enterprise,T08,1709849.0,79,Active
+ACC0051,Customer 0051,Technology,Oman,Riyadh,Mid-Market,T03,9928377.0,796,Active
+ACC0052,Customer 0052,Technology,UAE,Sharjah,Enterprise,T02,3677183.0,235,Active
+ACC0053,Customer 0053,Retail,Saudi Arabia,Dubai,Mid-Market,T09,1714085.0,124,Active
+ACC0054,Customer 0054,Real Estate,Oman,Jeddah,Enterprise,T05,11682790.0,255,Active
+ACC0055,Customer 0055,Government,Qatar,Dubai,Mid-Market,T06,30607471.0,139,Active
+ACC0056,Customer 0056,Technology,UAE,Doha,Mid-Market,T05,3141711.0,151,Active
+ACC0057,Customer 0057,Hospitality,Saudi Arabia,Jeddah,SMB,T06,40945302.0,74,Active
+ACC0058,Customer 0058,Retail,UAE,Doha,SMB,T05,1943045.0,1059,Inactive
+ACC0059,Customer 0059,Manufacturing,UAE,Kuwait City,Mid-Market,T06,9776357.0,101,Active
+ACC0060,Customer 0060,Technology,Bahrain,Dubai,Mid-Market,T03,9053691.0,166,Active
+ACC0061,Customer 0061,Telecom,Oman,Kuwait City,SMB,T05,3819862.0,723,Active
+ACC0062,Customer 0062,Retail,UAE,Riyadh,Enterprise,T01,224545.0,197,Active
+ACC0063,Customer 0063,Real Estate,Bahrain,Jeddah,Enterprise,T09,4142216.0,1865,Active
+ACC0064,Customer 0064,Manufacturing,Saudi Arabia,Sharjah,SMB,T02,20966248.0,59,Active
+ACC0065,Customer 0065,Healthcare,Oman,Riyadh,Mid-Market,T01,4471728.0,711,Active
+ACC0066,Customer 0066,Manufacturing,Oman,Riyadh,Mid-Market,T01,1324595.0,234,Active
+ACC0067,Customer 0067,Technology,UAE,Sharjah,Mid-Market,T07,10496981.0,115,Active
+ACC0068,Customer 0068,Hospitality,Oman,Sharjah,Mid-Market,T02,1856744.0,366,Active
+ACC0069,Customer 0069,Hospitality,UAE,Doha,Enterprise,T01,850979.0,368,Active
+ACC0070,Customer 0070,Retail,UAE,Muscat,Enterprise,T09,8223492.0,1186,Active
+ACC0071,Customer 0071,Hospitality,UAE,Riyadh,SMB,T01,8693867.0,251,Active
+ACC0072,Customer 0072,Technology,UAE,Kuwait City,Mid-Market,T02,17045590.0,111,Active
+ACC0073,Customer 0073,Education,Saudi Arabia,Abu Dhabi,Mid-Market,T03,3044213.0,204,Active
+ACC0074,Customer 0074,Retail,Saudi Arabia,Dubai,Enterprise,T10,1528036.0,288,Active
+ACC0075,Customer 0075,Healthcare,UAE,Muscat,Mid-Market,T04,78164755.0,550,Active
+ACC0076,Customer 0076,Healthcare,UAE,Muscat,Mid-Market,T04,18369046.0,1127,Active
+ACC0077,Customer 0077,Technology,Saudi Arabia,Dubai,Enterprise,T05,4601487.0,148,Active
+ACC0078,Customer 0078,Retail,UAE,Manama,SMB,T07,8657758.0,505,Active
+ACC0079,Customer 0079,Banking,Oman,Manama,Mid-Market,T09,9683947.0,1018,Active
+ACC0080,Customer 0080,Manufacturing,UAE,Doha,Mid-Market,T04,1428960.0,254,Active
+ACC0081,Customer 0081,Government,UAE,Jeddah,Mid-Market,T04,17573979.0,63,Active
+ACC0082,Customer 0082,Healthcare,Saudi Arabia,Abu Dhabi,Mid-Market,T02,79389627.0,150,Active
+ACC0083,Customer 0083,Retail,Bahrain,Abu Dhabi,Enterprise,T08,14190751.0,210,Active
+ACC0084,Customer 0084,Banking,Kuwait,Muscat,SMB,T03,10793473.0,174,Active
+ACC0085,Customer 0085,Education,UAE,Muscat,Mid-Market,T08,947778.0,109,Active
+ACC0086,Customer 0086,Real Estate,Kuwait,Dubai,Enterprise,T01,14459060.0,37,Active
+ACC0087,Customer 0087,Real Estate,Saudi Arabia,Doha,SMB,T07,18186157.0,585,Active
+ACC0088,Customer 0088,Manufacturing,UAE,Kuwait City,Mid-Market,T06,16653875.0,548,Active
+ACC0089,Customer 0089,Retail,UAE,Abu Dhabi,SMB,T10,20532919.0,162,Active
+ACC0090,Customer 0090,Manufacturing,UAE,Manama,Mid-Market,T08,4744953.0,157,Active
+ACC0091,Customer 0091,Telecom,Saudi Arabia,Sharjah,Mid-Market,T10,3355834.0,90,Active
+ACC0092,Customer 0092,Technology,Saudi Arabia,Manama,Mid-Market,T10,8714779.0,2028,Active
+ACC0093,Customer 0093,Banking,Oman,Riyadh,SMB,T05,9037210.0,348,Active
+ACC0094,Customer 0094,Government,Saudi Arabia,Doha,Enterprise,T08,5234209.0,167,Active
+ACC0095,Customer 0095,Retail,Bahrain,Dubai,SMB,T07,12456660.0,82,Active
+ACC0096,Customer 0096,Telecom,UAE,Muscat,Enterprise,T09,5897171.0,114,Active
+ACC0097,Customer 0097,Technology,UAE,Abu Dhabi,SMB,T03,11660156.0,71,Active
+ACC0098,Customer 0098,Banking,UAE,Doha,Enterprise,T02,2630824.0,369,Inactive
+ACC0099,Customer 0099,Retail,UAE,Manama,Mid-Market,T01,3045377.0,67,Active
+ACC0100,Customer 0100,Manufacturing,UAE,Dubai,Enterprise,T08,1396199.0,428,Active
+ACC0101,Customer 0101,Education,Saudi Arabia,Dubai,Mid-Market,T06,5093460.0,296,Active
+ACC0102,Customer 0102,Banking,Kuwait,Sharjah,Mid-Market,T01,18544400.0,676,Active
+ACC0103,Customer 0103,Real Estate,UAE,Manama,Enterprise,T05,12000724.0,105,Active
+ACC0104,Customer 0104,Banking,UAE,Manama,SMB,T04,1338063.0,119,Active
+ACC0105,Customer 0105,Government,Kuwait,Jeddah,Enterprise,T03,1369862.0,1004,Active
+ACC0106,Customer 0106,Manufacturing,UAE,Abu Dhabi,Mid-Market,T07,15500015.0,79,Active
+ACC0107,Customer 0107,Education,UAE,Sharjah,SMB,T06,5101105.0,300,Active
+ACC0108,Customer 0108,Technology,UAE,Dubai,Mid-Market,T01,9897589.0,62,Active
+ACC0109,Customer 0109,Real Estate,UAE,Riyadh,Enterprise,T02,1426033.0,380,Active
+ACC0110,Customer 0110,Government,Bahrain,Kuwait City,Enterprise,T06,9398209.0,537,Active
+ACC0111,Customer 0111,Telecom,UAE,Dubai,Mid-Market,T10,1138491.0,110,Inactive
+ACC0112,Customer 0112,Retail,UAE,Sharjah,Enterprise,T05,5809436.0,642,Active
+ACC0113,Customer 0113,Telecom,Saudi Arabia,Doha,Mid-Market,T08,8002950.0,282,Active
+ACC0114,Customer 0114,Banking,UAE,Sharjah,SMB,T01,94120322.0,226,Active
+ACC0115,Customer 0115,Telecom,UAE,Muscat,Mid-Market,T01,52431984.0,235,Active
+ACC0116,Customer 0116,Real Estate,Bahrain,Jeddah,Enterprise,T03,13548819.0,69,Active
+ACC0117,Customer 0117,Banking,Oman,Dubai,SMB,T07,3052260.0,253,Inactive
+ACC0118,Customer 0118,Telecom,Saudi Arabia,Dubai,Mid-Market,T06,7570288.0,246,Active
+ACC0119,Customer 0119,Government,Qatar,Muscat,SMB,T10,2082342.0,1968,Active
+ACC0120,Customer 0120,Retail,Kuwait,Sharjah,SMB,T02,28257141.0,183,Active
+ACC0121,Customer 0121,Banking,UAE,Kuwait City,Enterprise,T08,4711438.0,191,Active
+ACC0122,Customer 0122,Telecom,UAE,Kuwait City,Mid-Market,T07,10990814.0,52,Active
+ACC0123,Customer 0123,Real Estate,Saudi Arabia,Abu Dhabi,Enterprise,T10,4696529.0,94,Inactive
+ACC0124,Customer 0124,Banking,UAE,Dubai,Mid-Market,T05,97728584.0,145,Active
+ACC0125,Customer 0125,Hospitality,UAE,Kuwait City,Mid-Market,T01,4779341.0,195,Active
+ACC0126,Customer 0126,Real Estate,UAE,Jeddah,Enterprise,T01,5694039.0,120,Active
+ACC0127,Customer 0127,Technology,Kuwait,Jeddah,Enterprise,T06,16710415.0,288,Inactive
+ACC0128,Customer 0128,Telecom,UAE,Manama,SMB,T06,9714874.0,1744,Active
+ACC0129,Customer 0129,Retail,UAE,Dubai,SMB,T08,4430535.0,213,Inactive
+ACC0130,Customer 0130,Technology,Oman,Dubai,Enterprise,T10,1166111.0,3083,Inactive
+ACC0131,Customer 0131,Technology,UAE,Manama,Mid-Market,T09,34192101.0,1029,Active
+ACC0132,Customer 0132,Manufacturing,UAE,Muscat,Enterprise,T02,9682836.0,319,Active
+ACC0133,Customer 0133,Education,UAE,Manama,Enterprise,T06,17612172.0,114,Active
+ACC0134,Customer 0134,Banking,UAE,Jeddah,SMB,T02,223953.0,121,Active
+ACC0135,Customer 0135,Manufacturing,UAE,Abu Dhabi,Mid-Market,T01,9248970.0,312,Active
+ACC0136,Customer 0136,Manufacturing,Bahrain,Muscat,Mid-Market,T09,2875481.0,393,Active
+ACC0137,Customer 0137,Technology,UAE,Kuwait City,Enterprise,T05,3650810.0,363,Active
+ACC0138,Customer 0138,Manufacturing,Saudi Arabia,Kuwait City,Enterprise,T01,2700155.0,276,Active
+ACC0139,Customer 0139,Banking,Bahrain,Doha,Enterprise,T07,12459854.0,254,Active
+ACC0140,Customer 0140,Government,Oman,Doha,SMB,T04,6038267.0,177,Active
+ACC0141,Customer 0141,Banking,Saudi Arabia,Dubai,Enterprise,T08,4160218.0,330,Active
+ACC0142,Customer 0142,Banking,UAE,Doha,Mid-Market,T03,6498021.0,91,Inactive
+ACC0143,Customer 0143,Retail,Bahrain,Kuwait City,SMB,T04,11567660.0,388,Active
+ACC0144,Customer 0144,Retail,Bahrain,Manama,Mid-Market,T05,1147651.0,155,Active
+ACC0145,Customer 0145,Telecom,Kuwait,Sharjah,Enterprise,T09,12024083.0,969,Active
+ACC0146,Customer 0146,Education,UAE,Muscat,SMB,T05,6207970.0,94,Active
+ACC0147,Customer 0147,Banking,Kuwait,Jeddah,SMB,T10,25373142.0,362,Active
+ACC0148,Customer 0148,Retail,UAE,Riyadh,Mid-Market,T06,4098414.0,168,Active
+ACC0149,Customer 0149,Hospitality,Saudi Arabia,Manama,Mid-Market,T01,4628270.0,35,Active
+ACC0150,Customer 0150,Real Estate,Qatar,Dubai,SMB,T09,7101546.0,154,Active
+ACC0151,Customer 0151,Real Estate,Oman,Doha,Mid-Market,T04,23757629.0,144,Inactive
+ACC0152,Customer 0152,Banking,Saudi Arabia,Muscat,Mid-Market,T01,4542063.0,578,Active
+ACC0153,Customer 0153,Technology,UAE,Abu Dhabi,SMB,T10,29483916.0,512,Active
+ACC0154,Customer 0154,Technology,UAE,Muscat,Mid-Market,T08,8421075.0,371,Active
+ACC0155,Customer 0155,Government,UAE,Riyadh,Mid-Market,T06,5968743.0,701,Active
+ACC0156,Customer 0156,Education,Kuwait,Abu Dhabi,Enterprise,T07,5398850.0,1381,Active
+ACC0157,Customer 0157,Hospitality,UAE,Manama,SMB,T05,7100284.0,1358,Active
+ACC0158,Customer 0158,Telecom,UAE,Manama,SMB,T03,6103657.0,133,Active
+ACC0159,Customer 0159,Healthcare,UAE,Kuwait City,Mid-Market,T05,18492561.0,492,Active
+ACC0160,Customer 0160,Hospitality,UAE,Riyadh,Mid-Market,T02,9106070.0,565,Active
+ACC0161,Customer 0161,Telecom,UAE,Abu Dhabi,Mid-Market,T04,1421251.0,154,Active
+ACC0162,Customer 0162,Technology,UAE,Abu Dhabi,Mid-Market,T01,10871177.0,141,Active
+ACC0163,Customer 0163,Retail,UAE,Abu Dhabi,Enterprise,T05,6534942.0,135,Active
+ACC0164,Customer 0164,Healthcare,Saudi Arabia,Kuwait City,Mid-Market,T02,9513447.0,138,Active
+ACC0165,Customer 0165,Hospitality,Bahrain,Jeddah,Mid-Market,T08,1442001.0,842,Active
+ACC0166,Customer 0166,Real Estate,Oman,Doha,Enterprise,T10,51188953.0,152,Active
+ACC0167,Customer 0167,Healthcare,Saudi Arabia,Dubai,Enterprise,T06,16972060.0,650,Active
+ACC0168,Customer 0168,Manufacturing,Kuwait,Doha,Enterprise,T04,6772621.0,237,Active
+ACC0169,Customer 0169,Technology,UAE,Kuwait City,Enterprise,T05,6016436.0,350,Active
+ACC0170,Customer 0170,Banking,UAE,Jeddah,Mid-Market,T02,1552746.0,366,Active
+ACC0171,Customer 0171,Hospitality,Saudi Arabia,Kuwait City,Enterprise,T04,2846305.0,409,Active
+ACC0172,Customer 0172,Technology,UAE,Manama,Enterprise,T06,6012298.0,291,Active
+ACC0173,Customer 0173,Manufacturing,Oman,Abu Dhabi,Enterprise,T10,8895882.0,567,Active
+ACC0174,Customer 0174,Technology,Qatar,Dubai,Mid-Market,T05,16838607.0,1045,Active
+ACC0175,Customer 0175,Retail,Saudi Arabia,Muscat,SMB,T09,10032669.0,342,Active
+ACC0176,Customer 0176,Telecom,Oman,Doha,Mid-Market,T06,17920836.0,218,Active
+ACC0177,Customer 0177,Real Estate,Bahrain,Dubai,Enterprise,T06,1904007.0,621,Active
+ACC0178,Customer 0178,Government,Saudi Arabia,Sharjah,Mid-Market,T09,21074318.0,1475,Active
+ACC0179,Customer 0179,Banking,Saudi Arabia,Manama,Mid-Market,T10,7295603.0,894,Active
+ACC0180,Customer 0180,Technology,Bahrain,Jeddah,SMB,T09,1812880.0,65,Active
+ACC0181,Customer 0181,Education,Saudi Arabia,Kuwait City,SMB,T02,8705076.0,1050,Active
+ACC0182,Customer 0182,Healthcare,Oman,Jeddah,SMB,T09,2220633.0,832,Active
+ACC0183,Customer 0183,Healthcare,UAE,Riyadh,Enterprise,T04,12266943.0,288,Active
+ACC0184,Customer 0184,Government,UAE,Abu Dhabi,Mid-Market,T04,7971906.0,700,Active
+ACC0185,Customer 0185,Manufacturing,Kuwait,Kuwait City,Enterprise,T01,1479192.0,348,Inactive
+ACC0186,Customer 0186,Education,Kuwait,Dubai,Mid-Market,T10,9318366.0,1480,Active
+ACC0187,Customer 0187,Manufacturing,Saudi Arabia,Manama,Mid-Market,T10,5524353.0,446,Active
+ACC0188,Customer 0188,Manufacturing,UAE,Sharjah,SMB,T07,3709877.0,305,Active
+ACC0189,Customer 0189,Healthcare,Saudi Arabia,Dubai,Mid-Market,T02,85844852.0,53,Active
+ACC0190,Customer 0190,Real Estate,UAE,Kuwait City,Mid-Market,T10,15161112.0,82,Active
+ACC0191,Customer 0191,Retail,UAE,Kuwait City,Mid-Market,T03,1123321.0,50,Active
+ACC0192,Customer 0192,Banking,UAE,Sharjah,Mid-Market,T06,1435400.0,384,Active
+ACC0193,Customer 0193,Banking,Oman,Sharjah,Mid-Market,T01,3800801.0,91,Active
+ACC0194,Customer 0194,Education,UAE,Jeddah,Enterprise,T05,13677891.0,70,Active
+ACC0195,Customer 0195,Real Estate,UAE,Doha,Mid-Market,T07,1624016.0,84,Inactive
+ACC0196,Customer 0196,Healthcare,UAE,Doha,Mid-Market,T04,8125278.0,331,Active
+ACC0197,Customer 0197,Retail,UAE,Muscat,SMB,T01,703925.0,164,Active
+ACC0198,Customer 0198,Technology,UAE,Riyadh,SMB,T01,7843432.0,653,Active
+ACC0199,Customer 0199,Banking,Kuwait,Dubai,Mid-Market,T06,5439479.0,176,Active
+ACC0200,Customer 0200,Hospitality,UAE,Muscat,Mid-Market,T03,2413608.0,43,Active
+ACC0201,Customer 0201,Education,Oman,Doha,Mid-Market,T04,7895704.0,226,Active
+ACC0202,Customer 0202,Manufacturing,Bahrain,Doha,Enterprise,T07,4381392.0,202,Active
+ACC0203,Customer 0203,Retail,Qatar,Abu Dhabi,SMB,T02,21550198.0,357,Active
+ACC0204,Customer 0204,Manufacturing,Oman,Dubai,Mid-Market,T06,4341559.0,515,Inactive
+ACC0205,Customer 0205,Manufacturing,Qatar,Abu Dhabi,Enterprise,T02,1496654.0,251,Active
+ACC0206,Customer 0206,Telecom,UAE,Riyadh,Mid-Market,T06,1388268.0,668,Active
+ACC0207,Customer 0207,Government,UAE,Muscat,Enterprise,T02,8441474.0,186,Inactive
+ACC0208,Customer 0208,Real Estate,UAE,Muscat,SMB,T03,12591466.0,116,Active
+ACC0209,Customer 0209,Government,UAE,Jeddah,Mid-Market,T04,11883200.0,107,Active
+ACC0210,Customer 0210,Telecom,Kuwait,Sharjah,Mid-Market,T06,12502794.0,449,Active
+ACC0211,Customer 0211,Banking,UAE,Jeddah,Enterprise,T05,4213295.0,334,Active
+ACC0212,Customer 0212,Retail,UAE,Abu Dhabi,Mid-Market,T05,2692266.0,238,Active
+ACC0213,Customer 0213,Healthcare,Bahrain,Kuwait City,Enterprise,T04,4927801.0,381,Active
+ACC0214,Customer 0214,Manufacturing,Saudi Arabia,Doha,Mid-Market,T10,3726303.0,562,Active
+ACC0215,Customer 0215,Healthcare,UAE,Abu Dhabi,Enterprise,T08,62915821.0,150,Active
+ACC0216,Customer 0216,Technology,Saudi Arabia,Dubai,Enterprise,T08,7059498.0,301,Active
+ACC0217,Customer 0217,Banking,Kuwait,Dubai,Enterprise,T08,638003.0,283,Active
+ACC0218,Customer 0218,Technology,Oman,Sharjah,Mid-Market,T03,23812094.0,434,Active
+ACC0219,Customer 0219,Banking,UAE,Dubai,Enterprise,T08,1755368.0,813,Active
+ACC0220,Customer 0220,Retail,Saudi Arabia,Muscat,Mid-Market,T10,19042795.0,234,Active
+ACC0221,Customer 0221,Retail,UAE,Abu Dhabi,Mid-Market,T05,7579720.0,475,Active
+ACC0222,Customer 0222,Retail,UAE,Dubai,SMB,T07,5731378.0,131,Active
+ACC0223,Customer 0223,Hospitality,UAE,Riyadh,Enterprise,T05,6949076.0,1254,Active
+ACC0224,Customer 0224,Technology,Qatar,Kuwait City,SMB,T09,61156491.0,424,Active
+ACC0225,Customer 0225,Technology,Kuwait,Kuwait City,Enterprise,T06,3177284.0,506,Active
+ACC0226,Customer 0226,Telecom,UAE,Jeddah,Mid-Market,T02,7500490.0,74,Active
+ACC0227,Customer 0227,Telecom,Saudi Arabia,Dubai,Mid-Market,T06,44516703.0,402,Active
+ACC0228,Customer 0228,Government,Kuwait,Manama,Mid-Market,T08,16658889.0,116,Inactive
+ACC0229,Customer 0229,Banking,UAE,Abu Dhabi,Enterprise,T10,15544400.0,390,Active
+ACC0230,Customer 0230,Telecom,UAE,Muscat,Mid-Market,T06,9165284.0,295,Active
+ACC0231,Customer 0231,Banking,Kuwait,Jeddah,Mid-Market,T03,6543208.0,650,Active
+ACC0232,Customer 0232,Retail,UAE,Riyadh,Mid-Market,T08,4601362.0,183,Active
+ACC0233,Customer 0233,Banking,UAE,Doha,Enterprise,T09,1715890.0,64,Active
+ACC0234,Customer 0234,Education,Qatar,Jeddah,Mid-Market,T07,5698994.0,267,Active
+ACC0235,Customer 0235,Government,Saudi Arabia,Sharjah,Mid-Market,T03,6136809.0,170,Active
+ACC0236,Customer 0236,Telecom,Kuwait,Sharjah,Mid-Market,T04,10439892.0,153,Active
+ACC0237,Customer 0237,Hospitality,UAE,Muscat,SMB,T01,46819287.0,103,Active
+ACC0238,Customer 0238,Retail,UAE,Kuwait City,Mid-Market,T05,4462192.0,99,Active
+ACC0239,Customer 0239,Banking,UAE,Doha,Enterprise,T01,4059570.0,86,Active
+ACC0240,Customer 0240,Education,UAE,Jeddah,Mid-Market,T10,8936784.0,180,Active
+ACC0241,Customer 0241,Healthcare,Qatar,Doha,Enterprise,T09,15651546.0,652,Inactive
+ACC0242,Customer 0242,Banking,UAE,Doha,Enterprise,T03,17651480.0,140,Inactive
+ACC0243,Customer 0243,Hospitality,UAE,Muscat,SMB,T09,4299125.0,241,Active
+ACC0244,Customer 0244,Technology,UAE,Riyadh,Mid-Market,T07,6256706.0,202,Active
+ACC0245,Customer 0245,Education,UAE,Kuwait City,Mid-Market,T10,1524922.0,160,Active
+ACC0246,Customer 0246,Technology,UAE,Sharjah,Mid-Market,T05,1918094.0,1688,Inactive
+ACC0247,Customer 0247,Government,UAE,Muscat,Enterprise,T05,3489986.0,127,Active
+ACC0248,Customer 0248,Government,Saudi Arabia,Abu Dhabi,Mid-Market,T09,9242366.0,767,Active
+ACC0249,Customer 0249,Real Estate,Bahrain,Jeddah,Enterprise,T06,11257665.0,504,Active
+ACC0250,Customer 0250,Healthcare,Qatar,Doha,Enterprise,T08,5376419.0,127,Inactive
+ACC0251,Customer 0251,Manufacturing,UAE,Kuwait City,SMB,T10,23252747.0,132,Active
+ACC0252,Customer 0252,Retail,Oman,Doha,Enterprise,T09,35413157.0,331,Active
+ACC0253,Customer 0253,Education,UAE,Sharjah,SMB,T01,25766310.0,168,Active
+ACC0254,Customer 0254,Healthcare,UAE,Sharjah,Mid-Market,T08,25922738.0,138,Active
+ACC0255,Customer 0255,Real Estate,Saudi Arabia,Manama,Mid-Market,T04,2129078.0,290,Active
+ACC0256,Customer 0256,Hospitality,Oman,Manama,Mid-Market,T01,6621930.0,189,Active
+ACC0257,Customer 0257,Manufacturing,UAE,Doha,SMB,T03,8811083.0,296,Active
+ACC0258,Customer 0258,Technology,UAE,Kuwait City,Enterprise,T02,2215500.0,199,Active
+ACC0259,Customer 0259,Education,Saudi Arabia,Muscat,SMB,T10,8836349.0,184,Active
+ACC0260,Customer 0260,Manufacturing,Bahrain,Abu Dhabi,Enterprise,T09,27156176.0,222,Active
+ACC0261,Customer 0261,Hospitality,UAE,Sharjah,SMB,T10,4606421.0,192,Active
+ACC0262,Customer 0262,Telecom,UAE,Abu Dhabi,Mid-Market,T02,15612635.0,668,Active
+ACC0263,Customer 0263,Hospitality,Bahrain,Sharjah,Enterprise,T02,24026649.0,99,Active
+ACC0264,Customer 0264,Retail,Bahrain,Dubai,SMB,T07,5813799.0,152,Active
+ACC0265,Customer 0265,Retail,UAE,Jeddah,Enterprise,T05,31263293.0,161,Active
+ACC0266,Customer 0266,Real Estate,Kuwait,Abu Dhabi,Mid-Market,T06,14254365.0,1118,Active
+ACC0267,Customer 0267,Healthcare,UAE,Riyadh,Mid-Market,T03,26898439.0,180,Active
+ACC0268,Customer 0268,Banking,UAE,Doha,Enterprise,T09,12153233.0,198,Active
+ACC0269,Customer 0269,Manufacturing,UAE,Kuwait City,Mid-Market,T09,17692701.0,160,Active
+ACC0270,Customer 0270,Manufacturing,UAE,Doha,Enterprise,T04,5818389.0,185,Active
+ACC0271,Customer 0271,Healthcare,UAE,Jeddah,Enterprise,T09,11165207.0,502,Active
+ACC0272,Customer 0272,Technology,UAE,Kuwait City,Mid-Market,T01,4163600.0,63,Active
+ACC0273,Customer 0273,Manufacturing,Saudi Arabia,Jeddah,Enterprise,T04,6829599.0,72,Active
+ACC0274,Customer 0274,Education,UAE,Sharjah,SMB,T08,4334372.0,296,Active
+ACC0275,Customer 0275,Healthcare,UAE,Sharjah,SMB,T06,36480129.0,700,Active
+ACC0276,Customer 0276,Telecom,UAE,Kuwait City,Enterprise,T04,5628829.0,35,Active
+ACC0277,Customer 0277,Technology,Saudi Arabia,Kuwait City,SMB,T08,3903369.0,285,Active
+ACC0278,Customer 0278,Hospitality,UAE,Manama,Enterprise,T10,1782776.0,228,Active
+ACC0279,Customer 0279,Real Estate,UAE,Doha,SMB,T01,5340292.0,134,Active
+ACC0280,Customer 0280,Government,Saudi Arabia,Doha,SMB,T09,4070279.0,484,Active
+ACC0281,Customer 0281,Education,Oman,Kuwait City,SMB,T03,15527236.0,228,Active
+ACC0282,Customer 0282,Hospitality,Qatar,Manama,SMB,T05,16877513.0,96,Active
+ACC0283,Customer 0283,Telecom,Oman,Jeddah,Enterprise,T07,16365789.0,375,Active
+ACC0284,Customer 0284,Manufacturing,UAE,Riyadh,Mid-Market,T04,2993196.0,191,Active
+ACC0285,Customer 0285,Telecom,UAE,Sharjah,Mid-Market,T07,43231429.0,104,Active
+ACC0286,Customer 0286,Technology,Saudi Arabia,Abu Dhabi,Enterprise,T09,18870995.0,307,Active
+ACC0287,Customer 0287,Retail,Oman,Doha,SMB,T08,12721064.0,509,Active
+ACC0288,Customer 0288,Healthcare,UAE,Jeddah,Enterprise,T01,6109541.0,74,Active
+ACC0289,Customer 0289,Banking,UAE,Abu Dhabi,Mid-Market,T07,22253629.0,271,Active
+ACC0290,Customer 0290,Real Estate,UAE,Sharjah,SMB,T09,1179607.0,140,Active
+ACC0291,Customer 0291,Hospitality,Saudi Arabia,Riyadh,Mid-Market,T08,2443724.0,176,Active
+ACC0292,Customer 0292,Retail,Oman,Dubai,SMB,T03,7645123.0,215,Active
+ACC0293,Customer 0293,Hospitality,UAE,Dubai,Enterprise,T05,24695295.0,267,Active
+ACC0294,Customer 0294,Education,UAE,Dubai,Enterprise,T05,2386294.0,264,Active
+ACC0295,Customer 0295,Retail,Oman,Sharjah,Enterprise,T05,12748440.0,193,Active
+ACC0296,Customer 0296,Technology,UAE,Kuwait City,Mid-Market,T02,1560214.0,74,Active
+ACC0297,Customer 0297,Education,UAE,Dubai,Mid-Market,T06,14026812.0,165,Active
+ACC0298,Customer 0298,Manufacturing,Qatar,Dubai,Mid-Market,T05,7733836.0,363,Active
+ACC0299,Customer 0299,Government,UAE,Sharjah,Enterprise,T02,579379.0,194,Inactive
+ACC0300,Customer 0300,Technology,Saudi Arabia,Muscat,SMB,T03,4648641.0,88,Active
+ACC0301,Customer 0301,Healthcare,Saudi Arabia,Sharjah,Enterprise,T05,1344372.0,610,Active
+ACC0302,Customer 0302,Banking,Kuwait,Kuwait City,Enterprise,T01,5067483.0,1181,Active
+ACC0303,Customer 0303,Technology,Oman,Riyadh,SMB,T07,1709897.0,124,Active
+ACC0304,Customer 0304,Telecom,UAE,Muscat,Mid-Market,T01,24009407.0,186,Active
+ACC0305,Customer 0305,Government,Oman,Muscat,Enterprise,T01,1821832.0,528,Active
+ACC0306,Customer 0306,Real Estate,UAE,Jeddah,Mid-Market,T07,7140485.0,179,Active
+ACC0307,Customer 0307,Telecom,Qatar,Jeddah,Mid-Market,T02,24502106.0,122,Active
+ACC0308,Customer 0308,Manufacturing,Oman,Abu Dhabi,Mid-Market,T01,6428628.0,183,Active
+ACC0309,Customer 0309,Banking,UAE,Manama,SMB,T09,13052669.0,350,Active
+ACC0310,Customer 0310,Banking,UAE,Riyadh,Mid-Market,T06,11644241.0,55,Active
+ACC0311,Customer 0311,Government,Qatar,Sharjah,Mid-Market,T02,7284107.0,127,Active
+ACC0312,Customer 0312,Telecom,UAE,Abu Dhabi,Mid-Market,T08,2681723.0,132,Active
+ACC0313,Customer 0313,Manufacturing,Oman,Kuwait City,SMB,T07,1558457.0,220,Active
+ACC0314,Customer 0314,Technology,Saudi Arabia,Jeddah,Mid-Market,T09,355218.0,283,Active
+ACC0315,Customer 0315,Government,UAE,Abu Dhabi,Enterprise,T04,2459494.0,108,Active
+ACC0316,Customer 0316,Retail,Oman,Manama,Enterprise,T07,12688639.0,468,Active
+ACC0317,Customer 0317,Healthcare,UAE,Dubai,Mid-Market,T10,14561308.0,877,Active
+ACC0318,Customer 0318,Government,UAE,Doha,Enterprise,T09,6141323.0,275,Active
+ACC0319,Customer 0319,Manufacturing,Saudi Arabia,Abu Dhabi,SMB,T03,5802150.0,448,Inactive
+ACC0320,Customer 0320,Banking,Qatar,Dubai,SMB,T09,12264797.0,127,Active
+ACC0321,Customer 0321,Technology,Kuwait,Dubai,Mid-Market,T09,3922925.0,190,Active
+ACC0322,Customer 0322,Government,UAE,Jeddah,Mid-Market,T07,428258.0,248,Active
+ACC0323,Customer 0323,Retail,UAE,Muscat,Enterprise,T09,9064871.0,84,Active
+ACC0324,Customer 0324,Telecom,UAE,Doha,Mid-Market,T08,22963658.0,387,Active
+ACC0325,Customer 0325,Banking,UAE,Manama,Mid-Market,T02,8354398.0,186,Active
+ACC0326,Customer 0326,Government,UAE,Sharjah,Mid-Market,T01,7579207.0,109,Active
+ACC0327,Customer 0327,Manufacturing,UAE,Jeddah,SMB,T02,5850070.0,29,Active
+ACC0328,Customer 0328,Education,Saudi Arabia,Manama,Mid-Market,T09,7440629.0,379,Active
+ACC0329,Customer 0329,Real Estate,Kuwait,Dubai,Mid-Market,T10,9171836.0,588,Active
+ACC0330,Customer 0330,Hospitality,UAE,Jeddah,Enterprise,T05,25242860.0,126,Active
+ACC0331,Customer 0331,Government,Saudi Arabia,Jeddah,Mid-Market,T07,10384169.0,452,Active
+ACC0332,Customer 0332,Manufacturing,Saudi Arabia,Manama,Mid-Market,T06,9939921.0,275,Active
+ACC0333,Customer 0333,Healthcare,UAE,Riyadh,SMB,T09,8778381.0,68,Active
+ACC0334,Customer 0334,Government,Saudi Arabia,Doha,Mid-Market,T10,4999276.0,189,Active
+ACC0335,Customer 0335,Manufacturing,Saudi Arabia,Jeddah,Mid-Market,T04,35340518.0,108,Active
+ACC0336,Customer 0336,Hospitality,Oman,Manama,Mid-Market,T09,10120413.0,401,Active
+ACC0337,Customer 0337,Retail,UAE,Riyadh,Enterprise,T08,1457654.0,283,Active
+ACC0338,Customer 0338,Telecom,UAE,Doha,SMB,T02,1967798.0,285,Active
+ACC0339,Customer 0339,Government,Bahrain,Manama,Enterprise,T01,676261.0,394,Active
+ACC0340,Customer 0340,Retail,Saudi Arabia,Manama,Mid-Market,T10,1607687.0,269,Active
+ACC0341,Customer 0341,Technology,UAE,Doha,Mid-Market,T10,3196504.0,701,Active
+ACC0342,Customer 0342,Hospitality,Oman,Abu Dhabi,SMB,T10,44204984.0,210,Active
+ACC0343,Customer 0343,Government,Qatar,Riyadh,Mid-Market,T06,9879914.0,568,Active
+ACC0344,Customer 0344,Manufacturing,UAE,Jeddah,Enterprise,T08,11635506.0,433,Active
+ACC0345,Customer 0345,Healthcare,UAE,Sharjah,SMB,T10,239934803.0,75,Active
+ACC0346,Customer 0346,Government,UAE,Sharjah,Enterprise,T07,1125187.0,547,Active
+ACC0347,Customer 0347,Real Estate,Saudi Arabia,Abu Dhabi,Mid-Market,T02,11842016.0,414,Active
+ACC0348,Customer 0348,Technology,UAE,Manama,Enterprise,T04,1559307.0,1195,Active
+ACC0349,Customer 0349,Education,Kuwait,Sharjah,Enterprise,T07,6021697.0,511,Active
+ACC0350,Customer 0350,Healthcare,UAE,Riyadh,Enterprise,T08,4194475.0,107,Active
+ACC0351,Customer 0351,Retail,UAE,Riyadh,Enterprise,T03,538093.0,286,Active
+ACC0352,Customer 0352,Manufacturing,UAE,Abu Dhabi,SMB,T08,2807546.0,343,Active
+ACC0353,Customer 0353,Education,UAE,Kuwait City,SMB,T05,14508378.0,31,Active
+ACC0354,Customer 0354,Technology,UAE,Doha,Enterprise,T04,14351619.0,97,Active
+ACC0355,Customer 0355,Manufacturing,UAE,Abu Dhabi,SMB,T05,17254726.0,389,Active
+ACC0356,Customer 0356,Hospitality,Oman,Doha,Mid-Market,T08,9377851.0,858,Active
+ACC0357,Customer 0357,Hospitality,UAE,Abu Dhabi,SMB,T09,15796191.0,80,Active
+ACC0358,Customer 0358,Hospitality,Oman,Muscat,Enterprise,T05,7521889.0,113,Active
+ACC0359,Customer 0359,Hospitality,Oman,Manama,Enterprise,T07,16453896.0,230,Active
+ACC0360,Customer 0360,Telecom,Bahrain,Dubai,Enterprise,T09,4162799.0,101,Active
+ACC0361,Customer 0361,Technology,Bahrain,Dubai,Mid-Market,T07,1109652.0,363,Active
+ACC0362,Customer 0362,Education,UAE,Riyadh,Mid-Market,T03,4880939.0,311,Active
+ACC0363,Customer 0363,Government,Bahrain,Kuwait City,Enterprise,T03,9883822.0,1068,Active
+ACC0364,Customer 0364,Healthcare,UAE,Doha,Enterprise,T03,8772778.0,294,Active
+ACC0365,Customer 0365,Government,UAE,Doha,Mid-Market,T05,5925951.0,167,Inactive
+ACC0366,Customer 0366,Manufacturing,Oman,Sharjah,Enterprise,T08,7800878.0,146,Active
+ACC0367,Customer 0367,Real Estate,UAE,Dubai,SMB,T05,3877637.0,834,Active
+ACC0368,Customer 0368,Manufacturing,UAE,Muscat,Mid-Market,T05,8578278.0,236,Active
+ACC0369,Customer 0369,Telecom,UAE,Kuwait City,Mid-Market,T06,11122416.0,213,Active
+ACC0370,Customer 0370,Banking,UAE,Dubai,Enterprise,T10,5778180.0,116,Active
+ACC0371,Customer 0371,Telecom,UAE,Dubai,Mid-Market,T03,6692928.0,76,Active
+ACC0372,Customer 0372,Real Estate,Qatar,Doha,Enterprise,T07,6693288.0,283,Active
+ACC0373,Customer 0373,Government,Saudi Arabia,Abu Dhabi,Enterprise,T02,2943428.0,783,Active
+ACC0374,Customer 0374,Healthcare,Qatar,Doha,Mid-Market,T04,62791655.0,111,Active
+ACC0375,Customer 0375,Technology,UAE,Manama,Mid-Market,T02,4397642.0,218,Active
+ACC0376,Customer 0376,Hospitality,Oman,Muscat,Mid-Market,T01,14982418.0,119,Active
+ACC0377,Customer 0377,Telecom,UAE,Doha,Enterprise,T02,3158589.0,624,Active
+ACC0378,Customer 0378,Banking,Kuwait,Riyadh,Mid-Market,T09,9472010.0,72,Active
+ACC0379,Customer 0379,Telecom,UAE,Kuwait City,Enterprise,T07,6755536.0,201,Active
+ACC0380,Customer 0380,Banking,Oman,Abu Dhabi,Mid-Market,T10,35877102.0,904,Active
+ACC0381,Customer 0381,Hospitality,Oman,Sharjah,Mid-Market,T08,11783950.0,90,Active
+ACC0382,Customer 0382,Telecom,Saudi Arabia,Sharjah,SMB,T01,8485182.0,451,Active
+ACC0383,Customer 0383,Real Estate,UAE,Doha,SMB,T02,5775490.0,782,Active
+ACC0384,Customer 0384,Real Estate,Qatar,Manama,Mid-Market,T05,4894214.0,747,Active
+ACC0385,Customer 0385,Manufacturing,Saudi Arabia,Riyadh,Mid-Market,T07,7175351.0,140,Inactive
+ACC0386,Customer 0386,Retail,Kuwait,Doha,Mid-Market,T01,32208052.0,261,Inactive
+ACC0387,Customer 0387,Telecom,Qatar,Riyadh,Mid-Market,T04,2655613.0,100,Active
+ACC0388,Customer 0388,Education,Saudi Arabia,Jeddah,Mid-Market,T10,11779438.0,379,Active
+ACC0389,Customer 0389,Technology,Oman,Riyadh,Mid-Market,T01,14763027.0,246,Active
+ACC0390,Customer 0390,Retail,UAE,Sharjah,SMB,T07,10506258.0,190,Active
+ACC0391,Customer 0391,Manufacturing,Bahrain,Sharjah,Mid-Market,T06,5039266.0,56,Active
+ACC0392,Customer 0392,Telecom,UAE,Kuwait City,Mid-Market,T07,8138406.0,988,Active
+ACC0393,Customer 0393,Banking,UAE,Sharjah,Enterprise,T10,22272908.0,1061,Active
+ACC0394,Customer 0394,Retail,UAE,Kuwait City,Enterprise,T06,3058016.0,91,Active
+ACC0395,Customer 0395,Government,Oman,Muscat,Mid-Market,T01,47250093.0,334,Active
+ACC0396,Customer 0396,Retail,Saudi Arabia,Sharjah,Mid-Market,T01,12595861.0,1444,Active
+ACC0397,Customer 0397,Government,UAE,Kuwait City,Enterprise,T10,2630452.0,251,Active
+ACC0398,Customer 0398,Telecom,Kuwait,Kuwait City,Mid-Market,T01,20331757.0,316,Active
+ACC0399,Customer 0399,Healthcare,Oman,Muscat,Mid-Market,T09,25254075.0,271,Active
+ACC0400,Customer 0400,Manufacturing,UAE,Sharjah,Enterprise,T07,1944962.0,208,Active
+ACC0401,Customer 0401,Technology,UAE,Jeddah,Mid-Market,T09,5522260.0,519,Active
+ACC0402,Customer 0402,Technology,UAE,Muscat,SMB,T02,24156860.0,165,Active
+ACC0403,Customer 0403,Technology,Saudi Arabia,Sharjah,Enterprise,T06,14717308.0,805,Active
+ACC0404,Customer 0404,Hospitality,UAE,Abu Dhabi,Mid-Market,T01,30897773.0,80,Active
+ACC0405,Customer 0405,Retail,UAE,Riyadh,SMB,T10,24313734.0,2208,Active
+ACC0406,Customer 0406,Telecom,Kuwait,Sharjah,Mid-Market,T07,2123404.0,696,Active
+ACC0407,Customer 0407,Retail,UAE,Sharjah,Mid-Market,T10,8803286.0,519,Active
+ACC0408,Customer 0408,Retail,UAE,Doha,Mid-Market,T08,2446984.0,130,Active
+ACC0409,Customer 0409,Healthcare,Oman,Dubai,Mid-Market,T02,23112521.0,174,Active
+ACC0410,Customer 0410,Manufacturing,UAE,Doha,Mid-Market,T03,8639362.0,380,Active
+ACC0411,Customer 0411,Real Estate,UAE,Riyadh,SMB,T10,20676617.0,376,Active
+ACC0412,Customer 0412,Telecom,UAE,Riyadh,SMB,T04,2653647.0,50,Active
+ACC0413,Customer 0413,Real Estate,UAE,Jeddah,SMB,T05,19386617.0,325,Active
+ACC0414,Customer 0414,Healthcare,UAE,Manama,Mid-Market,T07,4550970.0,409,Active
+ACC0415,Customer 0415,Banking,UAE,Riyadh,SMB,T10,7180123.0,210,Active
+ACC0416,Customer 0416,Real Estate,UAE,Sharjah,Enterprise,T05,10158892.0,769,Active
+ACC0417,Customer 0417,Government,UAE,Doha,Enterprise,T08,27643557.0,404,Active
+ACC0418,Customer 0418,Manufacturing,Saudi Arabia,Sharjah,SMB,T05,9335254.0,564,Active
+ACC0419,Customer 0419,Technology,Kuwait,Abu Dhabi,Mid-Market,T09,11993365.0,79,Inactive
+ACC0420,Customer 0420,Technology,UAE,Jeddah,Mid-Market,T05,22263467.0,379,Active
+ACC0421,Customer 0421,Government,UAE,Abu Dhabi,Mid-Market,T06,12714984.0,215,Active
+ACC0422,Customer 0422,Education,Qatar,Muscat,Mid-Market,T10,36338535.0,325,Active
+ACC0423,Customer 0423,Healthcare,UAE,Doha,Mid-Market,T01,5203605.0,321,Active
+ACC0424,Customer 0424,Telecom,Saudi Arabia,Manama,SMB,T06,2729800.0,2834,Active
+ACC0425,Customer 0425,Retail,Saudi Arabia,Doha,Mid-Market,T06,42096523.0,861,Active
+ACC0426,Customer 0426,Banking,UAE,Manama,Enterprise,T01,18468392.0,301,Active
+ACC0427,Customer 0427,Government,UAE,Manama,Enterprise,T05,9321489.0,285,Active
+ACC0428,Customer 0428,Retail,UAE,Dubai,Mid-Market,T07,13022212.0,277,Active
+ACC0429,Customer 0429,Retail,UAE,Jeddah,SMB,T01,15095564.0,314,Active
+ACC0430,Customer 0430,Education,Kuwait,Kuwait City,Enterprise,T02,3691394.0,237,Inactive
+ACC0431,Customer 0431,Banking,UAE,Riyadh,SMB,T09,6839573.0,359,Active
+ACC0432,Customer 0432,Manufacturing,UAE,Manama,Enterprise,T08,4967741.0,153,Active
+ACC0433,Customer 0433,Telecom,UAE,Jeddah,Enterprise,T04,4813823.0,116,Active
+ACC0434,Customer 0434,Retail,UAE,Abu Dhabi,SMB,T05,32999930.0,223,Active
+ACC0435,Customer 0435,Real Estate,UAE,Kuwait City,Enterprise,T07,6984781.0,284,Active
+ACC0436,Customer 0436,Real Estate,UAE,Doha,Mid-Market,T02,22510076.0,422,Active
+ACC0437,Customer 0437,Real Estate,Saudi Arabia,Kuwait City,Mid-Market,T09,571776.0,1199,Active
+ACC0438,Customer 0438,Education,Qatar,Kuwait City,Enterprise,T02,10569480.0,138,Active
+ACC0439,Customer 0439,Education,Oman,Dubai,SMB,T06,48843731.0,898,Active
+ACC0440,Customer 0440,Government,UAE,Kuwait City,SMB,T06,9180525.0,205,Active
+ACC0441,Customer 0441,Healthcare,Oman,Doha,SMB,T08,25298795.0,156,Active
+ACC0442,Customer 0442,Technology,Oman,Dubai,Mid-Market,T05,12237298.0,111,Active
+ACC0443,Customer 0443,Retail,Oman,Kuwait City,Mid-Market,T04,12419984.0,654,Active
+ACC0444,Customer 0444,Retail,UAE,Dubai,Enterprise,T08,2851893.0,143,Active
+ACC0445,Customer 0445,Technology,UAE,Dubai,SMB,T07,466258.0,164,Active
+ACC0446,Customer 0446,Technology,Kuwait,Abu Dhabi,Enterprise,T05,2151965.0,412,Active
+ACC0447,Customer 0447,Healthcare,Kuwait,Jeddah,Enterprise,T04,14991385.0,170,Inactive
+ACC0448,Customer 0448,Technology,Kuwait,Abu Dhabi,Enterprise,T01,8295221.0,262,Active
+ACC0449,Customer 0449,Technology,Qatar,Manama,Enterprise,T03,4259511.0,325,Active
+ACC0450,Customer 0450,Real Estate,Qatar,Jeddah,SMB,T08,3836259.0,214,Active
+ACC0451,Customer 0451,Manufacturing,Saudi Arabia,Muscat,Enterprise,T03,5988208.0,232,Inactive
+ACC0452,Customer 0452,Telecom,Oman,Dubai,Mid-Market,T08,17350894.0,169,Inactive
+ACC0453,Customer 0453,Technology,Kuwait,Dubai,Enterprise,T10,50762483.0,166,Active
+ACC0454,Customer 0454,Hospitality,UAE,Sharjah,Mid-Market,T03,4739774.0,126,Active
+ACC0455,Customer 0455,Banking,Oman,Dubai,SMB,T08,6747080.0,428,Active
+ACC0456,Customer 0456,Retail,UAE,Manama,Mid-Market,T08,3819435.0,49,Active
+ACC0457,Customer 0457,Retail,UAE,Doha,Mid-Market,T10,1955947.0,484,Active
+ACC0458,Customer 0458,Real Estate,UAE,Dubai,Enterprise,T09,2816720.0,990,Active
+ACC0459,Customer 0459,Technology,Oman,Kuwait City,Enterprise,T07,6296671.0,114,Active
+ACC0460,Customer 0460,Technology,Saudi Arabia,Riyadh,SMB,T06,6875399.0,86,Active
+ACC0461,Customer 0461,Telecom,Oman,Riyadh,Mid-Market,T09,18098918.0,266,Active
+ACC0462,Customer 0462,Telecom,Qatar,Abu Dhabi,Enterprise,T03,49102409.0,467,Active
+ACC0463,Customer 0463,Hospitality,UAE,Dubai,Enterprise,T05,3500644.0,200,Active
+ACC0464,Customer 0464,Real Estate,Oman,Abu Dhabi,Mid-Market,T03,11109842.0,1292,Active
+ACC0465,Customer 0465,Retail,Saudi Arabia,Doha,Mid-Market,T09,4095720.0,174,Active
+ACC0466,Customer 0466,Banking,Saudi Arabia,Doha,Enterprise,T01,11828664.0,70,Active
+ACC0467,Customer 0467,Manufacturing,Bahrain,Doha,SMB,T08,2225952.0,286,Active
+ACC0468,Customer 0468,Hospitality,Oman,Sharjah,Enterprise,T08,11809875.0,354,Active
+ACC0469,Customer 0469,Healthcare,UAE,Sharjah,Enterprise,T05,8801422.0,350,Active
+ACC0470,Customer 0470,Banking,UAE,Riyadh,Enterprise,T02,7717370.0,349,Active
+ACC0471,Customer 0471,Banking,UAE,Kuwait City,Mid-Market,T03,5859341.0,147,Active
+ACC0472,Customer 0472,Healthcare,Bahrain,Manama,Mid-Market,T01,35892844.0,183,Active
+ACC0473,Customer 0473,Education,UAE,Riyadh,Mid-Market,T04,2191595.0,193,Active
+ACC0474,Customer 0474,Education,UAE,Manama,SMB,T09,17788266.0,164,Active
+ACC0475,Customer 0475,Healthcare,UAE,Muscat,Enterprise,T10,5841955.0,227,Active
+ACC0476,Customer 0476,Hospitality,UAE,Kuwait City,SMB,T06,9381576.0,181,Active
+ACC0477,Customer 0477,Healthcare,UAE,Muscat,Mid-Market,T04,10200362.0,200,Active
+ACC0478,Customer 0478,Manufacturing,Qatar,Riyadh,Mid-Market,T01,3066714.0,681,Active
+ACC0479,Customer 0479,Manufacturing,Oman,Riyadh,Mid-Market,T07,7829698.0,186,Active
+ACC0480,Customer 0480,Telecom,UAE,Muscat,Enterprise,T10,1996405.0,386,Active
+ACC0481,Customer 0481,Education,UAE,Abu Dhabi,Enterprise,T09,13993529.0,489,Active
+ACC0482,Customer 0482,Hospitality,Kuwait,Muscat,Mid-Market,T04,4076706.0,204,Active
+ACC0483,Customer 0483,Manufacturing,Oman,Kuwait City,Enterprise,T02,6328684.0,442,Active
+ACC0484,Customer 0484,Banking,Saudi Arabia,Abu Dhabi,SMB,T10,2424018.0,127,Active
+ACC0485,Customer 0485,Hospitality,Saudi Arabia,Doha,Mid-Market,T08,5712974.0,456,Active
+ACC0486,Customer 0486,Banking,UAE,Dubai,Enterprise,T01,13737798.0,157,Inactive
+ACC0487,Customer 0487,Banking,UAE,Jeddah,Enterprise,T10,16877715.0,328,Active
+ACC0488,Customer 0488,Telecom,UAE,Riyadh,Enterprise,T10,3726557.0,113,Active
+ACC0489,Customer 0489,Education,Kuwait,Riyadh,Mid-Market,T02,34892977.0,123,Active
+ACC0490,Customer 0490,Government,UAE,Doha,Mid-Market,T04,17234667.0,321,Active
+ACC0491,Customer 0491,Retail,Saudi Arabia,Abu Dhabi,Mid-Market,T04,11615218.0,1293,Active
+ACC0492,Customer 0492,Banking,Oman,Muscat,Enterprise,T07,25162858.0,139,Active
+ACC0493,Customer 0493,Government,Oman,Abu Dhabi,Mid-Market,T10,1159997.0,130,Active
+ACC0494,Customer 0494,Manufacturing,UAE,Jeddah,Mid-Market,T08,9086405.0,680,Active
+ACC0495,Customer 0495,Banking,Bahrain,Dubai,SMB,T01,23610611.0,407,Active
+ACC0496,Customer 0496,Government,Saudi Arabia,Sharjah,Enterprise,T08,14413451.0,234,Active
+ACC0497,Customer 0497,Telecom,Qatar,Jeddah,Mid-Market,T06,10532780.0,140,Active
+ACC0498,Customer 0498,Technology,UAE,Muscat,SMB,T08,24039784.0,358,Active
+ACC0499,Customer 0499,Education,Kuwait,Sharjah,Mid-Market,T08,72129760.0,221,Active
+ACC0500,Customer 0500,Hospitality,Kuwait,Jeddah,Mid-Market,T07,3358203.0,244,Active

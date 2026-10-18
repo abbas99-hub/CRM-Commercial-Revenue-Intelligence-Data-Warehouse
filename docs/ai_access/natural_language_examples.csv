@@ -1,0 +1,8 @@
+question,intent,filters,expected_result_shape,definition_note
+Show won revenue by representative for September 2026,won_revenue,month=2026-09,Month x rep x customer; won deals; won revenue AED; average won deal AED,Actual close month; EstimatedRevenue is authoritative won revenue
+Which open opportunities are overdue in the North region,open_pipeline,region=North,One row per eligible opportunity with pipeline AED and days past due,Current open opportunities; eligible stages only
+What is the weighted pipeline by opportunity,weighted_pipeline,none,One row per eligible open opportunity with weighted pipeline AED,EstimatedRevenue multiplied by probability percent
+Compare win rates by rep in September 2026,win_rate,month=2026-09,One row per rep and close month with won lost closed counts and win rate,Actual close month; undated outcomes excluded
+Who achieved target in September 2026,target_achievement,month=2026-09,One row per rep and target month with target actual achievement and status,Only compare when TargetStatus is COMPARABLE
+Which opportunities have been open over 90 days,ageing,none,One row per eligible opportunity with age band and overdue days,Current UTC date; not historical ageing
+How did lead conversion perform by created month,lead_conversion,none,One row per rep and lead-created month with leads created converted and conversion percentage,Created-month cohort rather than conversion month

@@ -1,0 +1,12 @@
+Metric,Period,Value,Unit,Interpretation
+Source records,All supplied CSVs,93837.0,rows,11 core entity files; includes known duplicate opportunity records.
+Opportunity rows quarantined,Source quality,70.0,rows,35 OpportunityID values have conflicting duplicate rows; all 70 rows excluded from KPI calculations.
+Eligible opportunity records after duplicate exclusion,Source quality,14930.0,rows,Remaining rows still include 25 Unknown-stage records; these are excluded from approved stage-based KPIs.
+Leads converted by status,All supplied leads,27.88,%,"1,394 status=Converted out of 5,000; no lead-to-opportunity bridge is provided."
+Activity records,All supplied activities,40000.0,activities,Descriptive workload volume; does not establish causal sales effectiveness.
+Activity duration,All supplied activities,1774485.0,minutes,Sum of recorded duration minutes.
+Provisional product-line gross margin,All product lines,29.49,%,Illustrative only; product-line semantics are unvalidated and this is not the authoritative won-revenue measure.
+Eligible current open pipeline,As of 2026-10-17,442790700.0,AED,"Sum of positive estimated revenue in approved open stages, valid probability, excluding duplicate IDs."
+Probability-weighted open pipeline,As of 2026-10-17,182315205.0,AED,Estimated revenue × stored probability; not a calibrated or guaranteed forecast.
+Open opportunities past expected close,As of 2026-10-17,10010.0,opportunities,Current-state date comparison; not historical close-date slippage.
+Past-expected-close open pipeline value,As of 2026-10-17,437592200.0,AED,Open pipeline whose expected close date precedes the reference date.

@@ -1,0 +1,107 @@
+{
+  "reference_date": "2026-10-17",
+  "source_currency": "unverified; AED is project convention",
+  "source_rows": 93837,
+  "opportunity_rows": 15000,
+  "conflicting_duplicate_opportunity_ids": 35,
+  "opportunity_rows_excluded": 70,
+  "trusted_opportunity_rows": 14930,
+  "unknown_stage_rows_after_duplicate_exclusion": 25,
+  "eligible_open_opportunities": 10128,
+  "eligible_open_pipeline_aed": 442790700.0,
+  "weighted_open_pipeline_aed": 182315205.0,
+  "overdue_open_opportunities": 10010,
+  "overdue_open_pipeline_aed": 437592200.0,
+  "lead_count": 5000,
+  "converted_leads": 1394,
+  "lead_status_conversion_pct": 27.88,
+  "activity_count": 40000,
+  "activity_duration_minutes": 1774485,
+  "closed_outcome_by_year": [
+    {
+      "Metric": "Closed outcome performance",
+      "Period": "2024",
+      "WonDeals": 698,
+      "LostDeals": 546,
+      "WinRatePct": 56.11,
+      "WonRevenueAED": 30610900.0,
+      "AverageWonDealAED": 43855.16,
+      "Notes": "Actual close year; conflicting duplicate opportunity IDs excluded; source currency unverified."
+    },
+    {
+      "Metric": "Closed outcome performance",
+      "Period": "2025",
+      "WonDeals": 917,
+      "LostDeals": 771,
+      "WinRatePct": 54.32,
+      "WonRevenueAED": 41261200.0,
+      "AverageWonDealAED": 44995.86,
+      "Notes": "Actual close year; conflicting duplicate opportunity IDs excluded; source currency unverified."
+    },
+    {
+      "Metric": "Closed outcome performance",
+      "Period": "2026",
+      "WonDeals": 1033,
+      "LostDeals": 786,
+      "WinRatePct": 56.79,
+      "WonRevenueAED": 44818900.0,
+      "AverageWonDealAED": 43387.12,
+      "Notes": "Actual close year; conflicting duplicate opportunity IDs excluded; source currency unverified."
+    }
+  ],
+  "target_attainment_by_year": [
+    {
+      "Metric": "Target attainment across available target months",
+      "Period": "2024",
+      "WonRevenueAED": 30295900.0,
+      "RevenueTargetAED": 94999999.08,
+      "TargetAchievementPct": 31.89,
+      "MonthsAvailable": 12,
+      "RepMonthRows": 600,
+      "Notes": "2026 includes Jan-Sep only; actuals attributed to actual close month; conflicting duplicate IDs excluded."
+    },
+    {
+      "Metric": "Target attainment across available target months",
+      "Period": "2025",
+      "WonRevenueAED": 41032400.0,
+      "RevenueTargetAED": 94999999.08,
+      "TargetAchievementPct": 43.19,
+      "MonthsAvailable": 12,
+      "RepMonthRows": 600,
+      "Notes": "2026 includes Jan-Sep only; actuals attributed to actual close month; conflicting duplicate IDs excluded."
+    },
+    {
+      "Metric": "Target attainment across available target months",
+      "Period": "2026",
+      "WonRevenueAED": 44389600.0,
+      "RevenueTargetAED": 71249999.31,
+      "TargetAchievementPct": 62.3,
+      "MonthsAvailable": 9,
+      "RepMonthRows": 450,
+      "Notes": "2026 includes Jan-Sep only; actuals attributed to actual close month; conflicting duplicate IDs excluded."
+    }
+  ],
+  "top_industries_by_won_revenue": [
+    {
+      "industry": "Technology",
+      "won_revenue_aed": 18608500.0
+    },
+    {
+      "industry": "Manufacturing",
+      "won_revenue_aed": 14797200.0
+    },
+    {
+      "industry": "Banking",
+      "won_revenue_aed": 12440300.0
+    },
+    {
+      "industry": "Telecom",
+      "won_revenue_aed": 12322300.0
+    },
+    {
+      "industry": "Retail",
+      "won_revenue_aed": 11815600.0
+    }
+  ],
+  "runtime_status": "Source-level descriptive calculations only. SQL Server views, Gold loads, role restrictions, and AI adapter execution are not runtime-validated."
+}

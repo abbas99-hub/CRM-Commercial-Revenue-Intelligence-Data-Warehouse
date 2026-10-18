@@ -1,0 +1,85 @@
+table,column,pandas_dtype,non_null_count,null_count,null_pct,distinct_non_null,sample_values
+Accounts,AccountID,object,500,0,0.0,500,ACC0001 | ACC0002 | ACC0003 | ACC0004 | ACC0005
+Accounts,AccountName,object,500,0,0.0,500,Customer 0001 | Customer 0002 | Customer 0003 | Customer 0004 | Customer 0005
+Accounts,Industry,object,500,0,0.0,10,Real Estate | Education | Banking | Hospitality | Government
+Accounts,Country,object,500,0,0.0,6,Qatar | Saudi Arabia | UAE | Oman | Bahrain
+Accounts,City,object,500,0,0.0,9,Manama | Doha | Muscat | Sharjah | Kuwait City
+Accounts,Segment,object,500,0,0.0,3,Enterprise | SMB | Mid-Market
+Accounts,TerritoryID,object,500,0,0.0,10,T01 | T02 | T05 | T03 | T10
+Accounts,AnnualRevenue,float64,500,0,0.0,500,16560732.0 | 9053286.0 | 1658589.0 | 6965383.0 | 11711041.0
+Accounts,Employees,int64,500,0,0.0,350,92 | 495 | 137 | 196 | 694
+Accounts,AccountStatus,object,500,0,0.0,2,Active | Inactive
+Activities,ActivityID,object,40000,0,0.0,40000,ACT000001 | ACT000002 | ACT000003 | ACT000004 | ACT000005
+Activities,OpportunityID,object,40000,0,0.0,13873,OPP08931 | OPP11681 | OPP04695 | OPP09000 | OPP04701
+Activities,AccountID,object,40000,0,0.0,500,ACC0180 | ACC0170 | ACC0249 | ACC0122 | ACC0415
+Activities,SalesRepID,object,40000,0,0.0,50,REP023 | REP034 | REP013 | REP006 | REP022
+Activities,ActivityDate,object,40000,0,0.0,1004,2025-01-28 | 2026-06-29 | 2026-05-06 | 2024-10-16 | 2025-11-26
+Activities,ActivityType,object,40000,0,0.0,5,Call | Meeting | Demo | Email | Task
+Activities,Outcome,object,40000,0,0.0,4,Completed | Cancelled | Rescheduled | No Response
+Activities,DurationMinutes,int64,40000,0,0.0,5,30 | 60 | 45 | 90 | 15
+Campaigns,CampaignID,object,30,0,0.0,30,CAMP001 | CAMP002 | CAMP003 | CAMP004 | CAMP005
+Campaigns,CampaignName,object,30,0,0.0,30,Campaign 01 | Campaign 02 | Campaign 03 | Campaign 04 | Campaign 05
+Campaigns,CampaignType,object,30,0,0.0,6,Partner | Account Based Marketing | LinkedIn | Webinar | Event
+Campaigns,StartDate,object,30,0,0.0,29,2025-07-08 | 2026-02-21 | 2025-08-21 | 2025-06-20 | 2025-08-15
+Campaigns,Budget,int64,30,0,0.0,30,25073 | 19482 | 58284 | 76480 | 19695
+Campaigns,TargetSegment,object,30,0,0.0,3,Enterprise | SMB | Mid-Market
+Contacts,ContactID,object,1500,0,0.0,1500,CON00001 | CON00002 | CON00003 | CON00004 | CON00005
+Contacts,AccountID,object,1500,0,0.0,476,ACC0146 | ACC0128 | ACC0454 | ACC0022 | ACC0445
+Contacts,ContactName,object,1500,0,0.0,1500,Contact 00001 | Contact 00002 | Contact 00003 | Contact 00004 | Contact 00005
+Contacts,JobTitle,object,1500,0,0.0,8,Finance Manager | CFO | Sales Director | IT Manager | CEO
+Contacts,EmailOptIn,bool,1500,0,0.0,2,True | False
+Date,Date,object,1096,0,0.0,1096,2024-01-01 | 2024-01-02 | 2024-01-03 | 2024-01-04 | 2024-01-05
+Date,Year,int64,1096,0,0.0,3,2024 | 2025 | 2026
+Date,MonthNumber,int64,1096,0,0.0,12,1 | 2 | 3 | 4 | 5
+Date,Month,object,1096,0,0.0,12,Jan | Feb | Mar | Apr | May
+Date,YearMonth,object,1096,0,0.0,36,2024-01 | 2024-02 | 2024-03 | 2024-04 | 2024-05
+Date,Quarter,object,1096,0,0.0,4,Q1 | Q2 | Q3 | Q4
+Date,WeekNumber,int64,1096,0,0.0,53,1 | 2 | 3 | 4 | 5
+Date,IsMonthEnd,bool,1096,0,0.0,2,False | True
+Leads,LeadID,object,5000,0,0.0,5000,LEAD00001 | LEAD00002 | LEAD00003 | LEAD00004 | LEAD00005
+Leads,CreatedDate,object,5000,0,0.0,997,2024-10-01 | 2024-12-15 | 2026-08-17 | 2026-09-18 | 2024-01-11
+Leads,AccountID,object,5000,0,0.0,500,ACC0490 | ACC0087 | ACC0223 | ACC0355 | ACC0032
+Leads,LeadSource,object,5000,0,0.0,8,Website | Referral | Email Campaign | Existing Customer | Outbound
+Leads,Industry,object,5000,0,0.0,10,Technology | Retail | Manufacturing | Government | Education
+Leads,LeadScore,int64,5000,0,0.0,93,61 | 71 | 62 | 37 | 53
+Leads,Status,object,5000,0,0.0,4,Open | Nurture | Disqualified | Converted
+Leads,ConvertedDate,object,1394,3606,72.12,780,2026-10-29 | 2025-04-02 | 2026-09-28 | 2025-07-21 | 2024-03-29
+Leads,SalesRepID,object,5000,0,0.0,50,REP004 | REP036 | REP026 | REP012 | REP014
+Opportunities,OpportunityID,object,15000,0,0.0,14965,OPP00001 | OPP00002 | OPP00003 | OPP00004 | OPP00005
+Opportunities,AccountID,object,15000,0,0.0,500,ACC0207 | ACC0397 | ACC0238 | ACC0325 | ACC0290
+Opportunities,SalesRepID,object,14880,120,0.8,50,REP038 | REP011 | REP012 | REP017 | REP024
+Opportunities,CreatedDate,object,15000,0,0.0,1004,2024-10-21 | 2026-05-29 | 2026-05-11 | 2025-10-22 | 2025-10-27
+Opportunities,ExpectedCloseDate,object,14820,180,1.2,972,2025-01-15 | 2026-09-30 | 2026-06-26 | 2025-11-16 | 2026-04-09
+Opportunities,ActualCloseDate,object,4784,10216,68.107,946,2025-01-15 | 2026-06-26 | 2025-12-04 | 2024-08-03 | 2025-07-05
+Opportunities,Stage,object,15000,0,0.0,7,Closed Lost | Proposal | Unknown | Needs Analysis | Qualification
+Opportunities,EstimatedRevenue,float64,15000,0,0.0,1822,13600.0 | 17700.0 | 63200.0 | 38300.0 | 5000.0
+Opportunities,ProbabilityPct,int64,15000,0,0.0,6,0 | 50 | 25 | 10 | 75
+Opportunities,LeadSource,object,15000,0,0.0,8,Partner | Email Campaign | Website | Existing Customer | LinkedIn
+Opportunities,Industry,object,15000,0,0.0,10,Government | Retail | Banking | Real Estate | Telecom
+Opportunities,Segment,object,15000,0,0.0,3,Enterprise | Mid-Market | SMB
+Opportunities,CampaignID,object,13207,1793,11.953,30,CAMP001 | CAMP019 | CAMP027 | CAMP020 | CAMP013
+Opportunities,ForecastCategory,object,15000,0,0.0,4,Commit | Closed | Pipeline | Best Case
+Opportunities,CompetitorInvolved,bool,15000,0,0.0,2,True | False
+OpportunityProducts,OpportunityID,object,28911,0,0.0,14965,OPP00001 | OPP00002 | OPP00003 | OPP00004 | OPP00005
+OpportunityProducts,ProductID,object,28911,0,0.0,100,PROD042 | PROD099 | PROD049 | PROD057 | PROD055
+OpportunityProducts,Quantity,int64,28911,0,0.0,7,2 | 7 | 3 | 5 | 6
+OpportunityProducts,DiscountPct,float64,28911,0,0.0,201,0.067 | 0.149 | 0.172 | 0.139 | 0.186
+OpportunityProducts,LineRevenue,float64,28911,0,0.0,28874,9331.95 | 59537.07 | 6213.15 | 86112.6 | 142511.76
+OpportunityProducts,EstimatedCost,float64,28911,0,0.0,28872,6037.77 | 48463.17 | 4193.88 | 69148.42 | 83796.91
+Products,ProductID,object,100,0,0.0,100,PROD001 | PROD002 | PROD003 | PROD004 | PROD005
+Products,ProductName,object,100,0,0.0,100,Networking Solution 001 | Cybersecurity Solution 002 | Consulting Solution 003 | Cloud Solution 004 | Cloud Solution 005
+Products,Category,object,100,0,0.0,7,Networking | Cybersecurity | Consulting | Cloud | CRM
+Products,UnitPrice,int64,100,0,0.0,8,50000 | 10000 | 2500 | 35000 | 100000
+Products,StandardMarginPct,float64,100,0,0.0,87,0.219 | 0.388 | 0.21 | 0.366 | 0.33
+Products,Active,bool,100,0,0.0,2,True | False
+SalesReps,SalesRepID,object,50,0,0.0,50,REP001 | REP002 | REP003 | REP004 | REP005
+SalesReps,SalesRepName,object,50,0,0.0,50,Sales Rep 01 | Sales Rep 02 | Sales Rep 03 | Sales Rep 04 | Sales Rep 05
+SalesReps,ManagerName,object,50,0,0.0,10,Manager 01 | Manager 02 | Manager 03 | Manager 04 | Manager 05
+SalesReps,TerritoryID,object,50,0,0.0,10,T01 | T02 | T03 | T04 | T05
+SalesReps,Region,object,50,0,0.0,2,UAE | GCC
+SalesReps,TargetAnnual,int64,50,0,0.0,5,2200000 | 2500000 | 1800000 | 1500000 | 1200000
+Targets,Month,object,1650,0,0.0,33,2024-01-01 | 2024-02-01 | 2024-03-01 | 2024-04-01 | 2024-05-01
+Targets,SalesRepID,object,1650,0,0.0,50,REP001 | REP002 | REP003 | REP004 | REP005
+Targets,RevenueTarget,float64,1650,0,0.0,5,183333.33 | 208333.33 | 150000.0 | 125000.0 | 100000.0
+Targets,PipelineTarget,float64,1650,0,0.0,5,586666.67 | 666666.67 | 480000.0 | 400000.0 | 320000.0
+Targets,WinRateTargetPct,float64,1650,0,0.0,1,0.28

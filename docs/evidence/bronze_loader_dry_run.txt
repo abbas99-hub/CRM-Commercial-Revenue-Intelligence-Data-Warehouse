@@ -1,0 +1,11 @@
+VALID Accounts: 500 rows; header_sha256=51f4e0eb9d093dccdb1d5f9ece2d77c7f415db331d80ba29de4cd357d353aa03; no database changes
+VALID Activities: 40,000 rows; header_sha256=ca156effb2ce133c52e6a6bfd866edc07bf232c078d075b9756cbf62707836b2; no database changes
+VALID Campaigns: 30 rows; header_sha256=94fe13ded5f60f11baf19e52a034a92caf0808c27405053bb5601457d9fdc07f; no database changes
+VALID Contacts: 1,500 rows; header_sha256=29653fa1aa2e723b68dc6014e4ad2b44ade87330c91f3398c1a9a66e125bba25; no database changes
+VALID Date: 1,096 rows; header_sha256=fb1d8646ad3b9841053babb3e6343c625455b5a2a3d30d00b34407ed63605a77; no database changes
+VALID Leads: 5,000 rows; header_sha256=be9158008b3aea8b366a1d6e150dacfeee675282b44ac265b46fa7cb6610e9f9; no database changes
+VALID Opportunities: 15,000 rows; header_sha256=fde2391d5aaa18df2ab4cd597ed08a5cb2c12093483b9c8d4fc51f7396cb787c; no database changes
+VALID OpportunityProducts: 28,911 rows; header_sha256=b6d4021203d88394d7fdf9c8407f96ae87600bca3f04fcc8efdcfc19d59ba008; no database changes
+VALID Products: 100 rows; header_sha256=69f1efd936e05a941dfe02fa5ebdbf434c948970015057dcf34103a4b714f106; no database changes
+VALID SalesReps: 50 rows; header_sha256=d831a2b291445ad47f94c1c613e2fc3962d6a4d3465ee8867e52efa51051c2c3; no database changes
+VALID Targets: 1,650 rows; header_sha256=a97e9482219da65806a113992109d266b0d05396750d8cf00c21ad997d32d222; no database changes

@@ -1,0 +1,6 @@
+table,column,null_count,row_count,null_pct
+Leads,ConvertedDate,3606,5000,72.12
+Opportunities,SalesRepID,120,15000,0.8
+Opportunities,ExpectedCloseDate,180,15000,1.2
+Opportunities,ActualCloseDate,10216,15000,68.107
+Opportunities,CampaignID,1793,15000,11.953

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "policy": "allowlist-only",
+  "raw_sql_allowed": false,
+  "views": [
+    {"name":"rpt.ai_WonRevenueByMonth","intent":"won_revenue","grain":"month-representative-customer","time_basis":"actual close month","measure":"WonRevenueAED = sum EstimatedRevenueAED for trusted Closed Won opportunities"},
+    {"name":"rpt.ai_OpenPipeline","intent":"open_pipeline","grain":"one eligible open opportunity","time_basis":"current snapshot; expected close date for period filters","measure":"OpenPipelineAED = EstimatedRevenueAED"},
+    {"name":"rpt.ai_WeightedPipeline","intent":"weighted_pipeline","grain":"one eligible open opportunity","time_basis":"current snapshot","measure":"WeightedPipelineAED = EstimatedRevenueAED * ProbabilityPct / 100"},
+    {"name":"rpt.ai_WinRateByMonth","intent":"win_rate","grain":"month-representative","time_basis":"actual close month","measure":"WinRatePct = won / (won + lost) * 100"},
+    {"name":"rpt.ai_TargetAchievementByMonth","intent":"target_achievement","grain":"month-representative target row","time_basis":"actual close month for wins; target month for target","measure":"TargetAchievementPct = WonRevenueAED / RevenueTargetAED * 100 when comparable"},
+    {"name":"rpt.ai_OpportunityAgeing","intent":"ageing","grain":"one eligible open opportunity","time_basis":"current UTC date","measure":"age in days and days past expected close"},
+    {"name":"rpt.ai_LeadConversionByMonth","intent":"lead_conversion","grain":"lead-created month-representative","time_basis":"created-month cohort","measure":"converted leads / created leads * 100"},
+    {"name":"rpt.ai_SalesActivityByMonth","intent":"sales_activity","grain":"activity month-representative","time_basis":"activity date month","measure":"activity count and duration"},
+    {"name":"rpt.ai_ProductLineMargin","intent":"product_line_margin","grain":"product","time_basis":"current source records","measure":"provisional product-line revenue, estimated cost and margin"}
+  ]
+}

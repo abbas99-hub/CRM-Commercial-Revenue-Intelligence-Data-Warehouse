@@ -1,0 +1,71 @@
+OpportunityID,AccountID,SalesRepID,CreatedDate,ExpectedCloseDate,ActualCloseDate,Stage,EstimatedRevenue,ProbabilityPct,LeadSource,Industry,Segment,CampaignID,ForecastCategory,CompetitorInvolved
+OPP00001,ACC0207,REP038,2024-10-21,2025-01-15,2025-01-15,Closed Lost,13600.0,0,Partner,Government,Enterprise,CAMP001,Commit,True
+OPP00001,ACC0361,REP027,2024-11-13,2025-01-22,,Needs Analysis,12200.0,25,Website,Technology,Mid-Market,CAMP027,Pipeline,True
+OPP00002,ACC0298,REP006,2025-03-10,2025-06-15,2025-06-15,Closed Lost,5300.0,0,Referral,Manufacturing,Mid-Market,CAMP009,Pipeline,False
+OPP00002,ACC0397,REP011,2026-05-29,2026-09-30,,Proposal,17700.0,50,Email Campaign,Government,Enterprise,CAMP019,Closed,False
+OPP00004,ACC0325,REP017,2025-10-22,2025-11-16,,Needs Analysis,38300.0,25,Partner,Banking,Mid-Market,CAMP020,Commit,False
+OPP00004,ACC0487,REP047,2024-08-23,2024-09-24,,Needs Analysis,61800.0,25,Email Campaign,Banking,Enterprise,CAMP013,Pipeline,True
+OPP00005,ACC0290,REP024,2025-10-27,2026-04-09,,Proposal,5000.0,50,Email Campaign,Real Estate,SMB,CAMP013,Pipeline,True
+OPP00005,ACC0434,REP009,2024-03-03,2024-05-23,2024-05-23,Closed Won,29400.0,100,Event,Retail,SMB,CAMP015,Best Case,True
+OPP00009,ACC0059,REP048,2026-06-28,2026-08-29,,Proposal,22700.0,50,LinkedIn,Manufacturing,Mid-Market,CAMP025,Commit,True
+OPP00009,ACC0185,REP019,2025-06-26,2026-01-14,,Negotiation,57800.0,75,Partner,Manufacturing,Enterprise,CAMP028,Closed,True
+OPP00010,ACC0411,REP032,2025-12-11,2026-01-14,2026-01-14,Closed Won,7100.0,100,Event,Real Estate,SMB,CAMP013,Best Case,False
+OPP00010,ACC0419,REP004,2025-05-31,2025-08-08,,Proposal,5000.0,50,Outbound,Technology,Mid-Market,CAMP026,Commit,True
+OPP00013,ACC0194,REP012,2025-05-01,2025-07-05,2025-07-05,Closed Lost,80300.0,0,Referral,Education,Enterprise,CAMP020,Commit,False
+OPP00013,ACC0377,REP020,2025-05-01,2025-10-25,,Negotiation,347900.0,75,Website,Telecom,Enterprise,CAMP005,Pipeline,True
+OPP00014,ACC0472,REP019,2025-11-10,2026-03-15,,Proposal,5000.0,50,Referral,Healthcare,Mid-Market,CAMP002,Closed,False
+OPP00014,ACC0384,REP010,2026-05-07,2026-09-30,2026-09-30,Closed Won,139400.0,100,LinkedIn,Real Estate,Mid-Market,CAMP007,Pipeline,False
+OPP00017,ACC0485,REP010,2024-01-11,,2024-07-15,Closed Lost,14100.0,0,Referral,Hospitality,Mid-Market,CAMP018,Best Case,False
+OPP00017,ACC0079,REP043,2024-06-21,2025-01-05,,Proposal,8300.0,50,Existing Customer,Banking,Mid-Market,CAMP008,Closed,True
+OPP00018,ACC0359,REP022,2026-06-15,2026-09-28,,Needs Analysis,5000.0,25,Outbound,Hospitality,Enterprise,,Commit,False
+OPP00018,ACC0001,REP033,2025-12-01,2026-03-04,,Proposal,20100.0,50,Existing Customer,Real Estate,Enterprise,CAMP025,Best Case,False
+OPP00019,ACC0322,REP033,2024-10-25,2025-03-21,,Qualification,6900.0,10,LinkedIn,Government,Mid-Market,CAMP015,Commit,True
+OPP00019,ACC0279,REP013,2026-06-18,2026-09-14,,Proposal,12600.0,50,Website,Real Estate,SMB,CAMP001,Best Case,False
+OPP00022,ACC0286,REP003,2026-03-15,2026-06-19,2026-06-19,Closed Lost,108400.0,0,Email Campaign,Technology,Enterprise,CAMP007,Pipeline,False
+OPP00022,ACC0286,REP015,2024-05-19,2024-08-03,,Negotiation,14100.0,75,Event,Technology,Enterprise,CAMP011,Pipeline,False
+OPP00023,ACC0187,REP047,2025-07-07,2026-01-24,,Qualification,18400.0,10,Email Campaign,Manufacturing,Mid-Market,CAMP009,Commit,False
+OPP00023,ACC0171,REP007,2024-11-06,2024-12-06,,Needs Analysis,80900.0,25,Outbound,Hospitality,Enterprise,CAMP022,Commit,False
+OPP00024,ACC0380,REP026,2025-03-24,2025-07-15,,Needs Analysis,6000.0,25,Partner,Banking,Mid-Market,,Commit,False
+OPP00024,ACC0344,REP049,2024-05-21,2024-10-10,2024-10-10,Closed Won,75400.0,100,Partner,Manufacturing,Enterprise,CAMP012,Commit,False
+OPP00025,ACC0418,REP015,2026-09-05,2026-09-30,,Proposal,63200.0,50,Existing Customer,Manufacturing,SMB,CAMP003,Pipeline,False
+OPP00025,ACC0007,REP037,2025-08-06,2026-03-06,2026-03-06,Closed Lost,113400.0,0,Partner,Telecom,SMB,CAMP025,Pipeline,False
+OPP00027,ACC0155,REP023,2026-02-17,2026-05-19,,Proposal,55500.0,50,Outbound,Government,Mid-Market,,Commit,True
+OPP00027,ACC0086,REP029,2024-06-09,2025-02-08,,Qualification,11900.0,10,Existing Customer,Real Estate,Enterprise,CAMP016,Pipeline,False
+OPP00034,ACC0460,REP026,2024-12-22,2025-02-19,,Proposal,317500.0,50,Existing Customer,Technology,SMB,,Closed,False
+OPP00034,ACC0133,REP015,2024-11-09,2025-02-19,2025-02-19,Closed Lost,27400.0,0,Website,Education,Enterprise,CAMP030,Commit,False
+OPP00037,ACC0236,REP031,2024-07-05,2024-10-18,,Needs Analysis,10900.0,25,Referral,Telecom,Mid-Market,CAMP006,Closed,False
+OPP00037,ACC0196,REP027,2024-03-21,2024-09-02,2024-09-02,Closed Won,19600.0,100,Email Campaign,Healthcare,Mid-Market,CAMP024,Best Case,True
+OPP00038,ACC0178,REP027,2026-04-13,2026-07-06,,Negotiation,14600.0,75,Existing Customer,Government,Mid-Market,CAMP027,Best Case,False
+OPP00038,ACC0429,REP024,2024-07-28,2024-12-24,,Needs Analysis,12700.0,25,Email Campaign,Retail,SMB,CAMP023,Closed,False
+OPP00042,ACC0308,REP017,2026-06-20,2026-07-05,,Qualification,59900.0,10,Referral,Manufacturing,Mid-Market,CAMP019,Pipeline,False
+OPP00042,ACC0135,REP025,2026-04-29,2026-08-04,,Proposal,110700.0,50,LinkedIn,Manufacturing,Mid-Market,,Commit,False
+OPP00043,ACC0254,REP040,2025-01-20,2025-05-18,2025-05-18,Closed Won,58000.0,100,LinkedIn,Healthcare,Mid-Market,CAMP001,Commit,True
+OPP00043,ACC0174,REP024,2024-07-03,2024-09-25,,Proposal,11600.0,50,Website,Technology,Mid-Market,CAMP014,Best Case,False
+OPP00049,ACC0483,REP003,2026-02-12,2026-04-18,,Qualification,15000.0,10,Email Campaign,Manufacturing,Enterprise,CAMP027,Pipeline,False
+OPP00049,ACC0229,REP049,2024-05-05,2024-08-14,,Proposal,143000.0,50,Referral,Banking,Enterprise,CAMP022,Pipeline,True
+OPP00054,ACC0205,REP018,2024-10-19,2025-01-20,,Needs Analysis,23200.0,25,Event,Manufacturing,Enterprise,CAMP013,Pipeline,False
+OPP00054,ACC0325,REP035,2025-06-17,2025-07-30,,Negotiation,41000.0,75,Outbound,Banking,Mid-Market,CAMP006,Pipeline,False
+OPP00056,ACC0382,REP033,2026-08-28,2026-09-30,,Needs Analysis,10600.0,25,Existing Customer,Telecom,SMB,CAMP023,Best Case,True
+OPP00056,ACC0432,REP050,2025-03-04,2025-08-07,,Needs Analysis,132300.0,25,Existing Customer,Manufacturing,Enterprise,CAMP025,Best Case,False
+OPP00058,ACC0162,REP017,2024-06-22,2024-10-17,,Qualification,40600.0,10,Email Campaign,Technology,Mid-Market,CAMP006,Pipeline,True
+OPP00058,ACC0162,REP011,2024-02-08,2024-05-01,,Needs Analysis,5900.0,25,Outbound,Technology,Mid-Market,CAMP012,Best Case,False
+OPP00060,ACC0048,REP026,2025-09-13,2025-12-11,2025-12-11,Closed Won,14800.0,100,LinkedIn,Manufacturing,Mid-Market,CAMP020,Pipeline,False
+OPP00060,ACC0168,REP034,2025-07-19,2025-09-30,2025-09-30,Closed Lost,55700.0,0,Outbound,Manufacturing,Enterprise,CAMP026,Pipeline,True
+OPP00070,ACC0227,REP044,2024-11-11,2025-04-16,,Needs Analysis,27900.0,25,Referral,Telecom,Mid-Market,CAMP029,Commit,False
+OPP00070,ACC0042,REP042,2026-02-22,2026-05-01,,Proposal,521000.0,50,Outbound,Real Estate,Enterprise,CAMP008,Pipeline,False
+OPP00075,ACC0035,REP039,2024-05-16,2024-07-26,,Negotiation,19900.0,75,LinkedIn,Banking,Enterprise,CAMP027,Closed,False
+OPP00075,ACC0121,REP044,2026-03-15,2026-04-25,2026-04-25,Closed Won,9100.0,100,Email Campaign,Banking,Enterprise,CAMP010,Best Case,False
+OPP00081,ACC0150,REP005,2026-03-06,2026-06-28,,Qualification,13000.0,10,LinkedIn,Real Estate,SMB,CAMP018,Best Case,False
+OPP00081,ACC0034,REP020,2026-06-28,2026-09-30,2026-09-30,Closed Won,42100.0,100,LinkedIn,Government,Mid-Market,CAMP014,Commit,False
+OPP00085,ACC0370,REP034,2026-05-20,2026-07-30,2026-07-30,Closed Won,40400.0,100,Event,Banking,Enterprise,CAMP002,Pipeline,False
+OPP00085,ACC0400,REP049,2025-06-27,2026-02-15,,Negotiation,113300.0,75,Event,Manufacturing,Enterprise,CAMP005,Pipeline,False
+OPP00086,ACC0362,REP021,2025-11-30,2026-01-29,,Proposal,53700.0,50,LinkedIn,Education,Mid-Market,CAMP029,Closed,False
+OPP00086,ACC0463,REP014,2024-11-13,2025-02-18,2025-02-18,Closed Lost,17800.0,0,Event,Hospitality,Enterprise,CAMP002,Pipeline,False
+OPP00087,ACC0188,REP021,2024-01-13,,,Needs Analysis,186000.0,25,LinkedIn,Manufacturing,SMB,CAMP008,Best Case,False
+OPP00087,ACC0013,REP031,2026-06-07,2026-07-06,2026-07-06,Closed Lost,7500.0,0,Event,Education,Enterprise,CAMP021,Pipeline,True
+OPP00091,ACC0059,REP036,2026-03-29,2026-06-03,,Needs Analysis,95000.0,25,LinkedIn,Manufacturing,Mid-Market,CAMP021,Pipeline,True
+OPP00091,ACC0110,REP034,2024-11-28,2025-02-11,2025-02-11,Closed Lost,5900.0,0,LinkedIn,Government,Enterprise,CAMP001,Pipeline,False
+OPP00093,ACC0387,REP003,2024-07-24,2024-09-09,,Needs Analysis,12300.0,25,Outbound,Telecom,Mid-Market,CAMP009,Pipeline,True
+OPP00093,ACC0452,REP002,2024-11-04,2024-11-30,2024-11-30,Closed Lost,20000.0,0,LinkedIn,Telecom,Mid-Market,CAMP001,Closed,False
+OPP00100,ACC0257,REP025,2024-10-09,2025-03-30,2025-03-30,Closed Lost,5000.0,0,Referral,Manufacturing,SMB,,Best Case,False
+OPP00100,ACC0255,REP033,2026-03-24,2026-09-30,2026-09-30,Closed Won,121200.0,100,Event,Real Estate,Mid-Market,CAMP006,Commit,False

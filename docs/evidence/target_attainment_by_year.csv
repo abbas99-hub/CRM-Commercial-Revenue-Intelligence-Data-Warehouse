@@ -1,0 +1,4 @@
+Metric,Period,WonRevenueAED,RevenueTargetAED,TargetAchievementPct,MonthsAvailable,RepMonthRows,Notes
+Target attainment across available target months,2024,30295900.0,94999999.08,31.89,12,600,2026 includes Jan-Sep only; actuals attributed to actual close month; conflicting duplicate IDs excluded.
+Target attainment across available target months,2025,41032400.0,94999999.08,43.19,12,600,2026 includes Jan-Sep only; actuals attributed to actual close month; conflicting duplicate IDs excluded.
+Target attainment across available target months,2026,44389600.0,71249999.31,62.3,9,450,2026 includes Jan-Sep only; actuals attributed to actual close month; conflicting duplicate IDs excluded.

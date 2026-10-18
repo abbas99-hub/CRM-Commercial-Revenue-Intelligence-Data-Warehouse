@@ -1,0 +1,31 @@
+CampaignID,CampaignName,CampaignType,StartDate,Budget,TargetSegment
+CAMP001,Campaign 01,Partner,2025-07-08,25073,Enterprise
+CAMP002,Campaign 02,Account Based Marketing,2026-02-21,19482,SMB
+CAMP003,Campaign 03,LinkedIn,2025-08-21,58284,Enterprise
+CAMP004,Campaign 04,Partner,2025-06-20,76480,Mid-Market
+CAMP005,Campaign 05,Account Based Marketing,2025-08-15,19695,SMB
+CAMP006,Campaign 06,LinkedIn,2026-06-25,136282,Enterprise
+CAMP007,Campaign 07,Account Based Marketing,2025-03-02,83754,Mid-Market
+CAMP008,Campaign 08,Webinar,2025-11-30,120338,Mid-Market
+CAMP009,Campaign 09,Webinar,2025-02-13,44669,Enterprise
+CAMP010,Campaign 10,Event,2026-01-31,51943,SMB
+CAMP011,Campaign 11,Account Based Marketing,2025-04-22,138351,Mid-Market
+CAMP012,Campaign 12,Partner,2026-07-07,114714,SMB
+CAMP013,Campaign 13,Email,2026-07-18,75848,SMB
+CAMP014,Campaign 14,Partner,2026-08-22,106103,Enterprise
+CAMP015,Campaign 15,Partner,2025-09-05,38671,SMB
+CAMP016,Campaign 16,LinkedIn,2026-07-27,72813,Enterprise
+CAMP017,Campaign 17,LinkedIn,2025-10-13,141865,Enterprise
+CAMP018,Campaign 18,Partner,2025-04-07,77576,Enterprise
+CAMP019,Campaign 19,LinkedIn,2026-04-01,27419,Mid-Market
+CAMP020,Campaign 20,Partner,2025-05-01,101649,Mid-Market
+CAMP021,Campaign 21,Account Based Marketing,2025-02-08,38039,Mid-Market
+CAMP022,Campaign 22,Webinar,2025-06-10,103263,Enterprise
+CAMP023,Campaign 23,Email,2026-05-18,136937,Mid-Market
+CAMP024,Campaign 24,Email,2026-05-15,76451,Enterprise
+CAMP025,Campaign 25,Email,2025-04-25,61728,Mid-Market
+CAMP026,Campaign 26,Email,2026-06-12,65044,SMB
+CAMP027,Campaign 27,Webinar,2025-08-14,52271,Enterprise
+CAMP028,Campaign 28,Event,2025-01-21,69165,SMB
+CAMP029,Campaign 29,Partner,2026-02-21,42007,Mid-Market
+CAMP030,Campaign 30,Webinar,2026-06-05,97912,Mid-Market

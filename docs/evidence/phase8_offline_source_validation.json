@@ -1,0 +1,150 @@
+{
+  "source_dir": "data/sample",
+  "files": {
+    "Accounts.csv": {
+      "status": "PASS",
+      "rows": 500,
+      "columns": 10,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "Activities.csv": {
+      "status": "PASS",
+      "rows": 40000,
+      "columns": 8,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "Campaigns.csv": {
+      "status": "PASS",
+      "rows": 30,
+      "columns": 6,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "Contacts.csv": {
+      "status": "PASS",
+      "rows": 1500,
+      "columns": 5,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "Date.csv": {
+      "status": "PASS",
+      "rows": 1096,
+      "columns": 8,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "Leads.csv": {
+      "status": "PASS",
+      "rows": 5000,
+      "columns": 9,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "Opportunities.csv": {
+      "status": "PASS",
+      "rows": 15000,
+      "columns": 15,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 35,
+      "rows_in_duplicate_key_groups": 70,
+      "type_domain_checks": "PASS"
+    },
+    "OpportunityProducts.csv": {
+      "status": "PASS",
+      "rows": 28911,
+      "columns": 6,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "type_domain_checks": "PASS"
+    },
+    "Products.csv": {
+      "status": "PASS",
+      "rows": 100,
+      "columns": 6,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "SalesReps.csv": {
+      "status": "PASS",
+      "rows": 50,
+      "columns": 6,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "blank_keys": 0,
+      "duplicate_key_values": 0,
+      "rows_in_duplicate_key_groups": 0,
+      "type_domain_checks": "PASS"
+    },
+    "Targets.csv": {
+      "status": "PASS",
+      "rows": 1650,
+      "columns": 5,
+      "malformed_row_width_count": 0,
+      "issues": [],
+      "type_domain_checks": "PASS"
+    }
+  },
+  "checks": [
+    {
+      "check": "total_source_row_count",
+      "actual": 93837,
+      "expected": 93837,
+      "pass": true
+    },
+    {
+      "check": "opportunity_duplicate_key_groups",
+      "actual": 35,
+      "expected_profile": 35,
+      "pass": true
+    },
+    {
+      "check": "repeated_opportunity_product_pairs",
+      "actual_pairs": 203,
+      "rows_in_repeated_pairs": 406,
+      "expected_profile_pairs": 203,
+      "expected_profile_rows": 406,
+      "pass": true
+    },
+    {
+      "check": "target_month_rep_grain_duplicates",
+      "actual_duplicate_grains": 0,
+      "pass": true
+    }
+  ],
+  "overall": "PASS",
+  "total_source_rows": 93837,
+  "expected_total_source_rows": 93837
+}

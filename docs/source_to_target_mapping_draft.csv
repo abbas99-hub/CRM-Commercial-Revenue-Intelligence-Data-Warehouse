@@ -1,0 +1,12 @@
+source_file,source_table,proposed_target_object,candidate_key_or_grain,mapping_assumptions_and_open_questions
+Accounts.csv,Accounts,dim_customer,AccountID,Customer/account attributes; validate slowly changing needs and whether AccountStatus is current-state only.
+Contacts.csv,Contacts,dim_contact or supporting entity,ContactID,Contact belongs to AccountID; avoid joining contacts directly into opportunity fact if it multiplies rows.
+Leads.csv,Leads,fact_lead,LeadID,Lead lifecycle event/funnel; confirm whether one row per lead is current state or history.
+Campaigns.csv,Campaigns,dim_campaign,CampaignID,Campaign attributes; opportunity CampaignID is nullable and attribution semantics need validation.
+Opportunities.csv,Opportunities,fact_opportunity,OpportunityID (currently not unique),"One row per opportunity is intended, but 35 IDs are duplicated with conflicting attributes; resolve before using as a fact key."
+Activities.csv,Activities,fact_activity,ActivityID,"One row per activity; relationship to opportunity/account/rep is many-to-one in principle, but verify all grain and key assumptions."
+Products.csv,Products,dim_product,ProductID,Product attributes and standard margin; compare to line-level estimated cost/margin logic.
+OpportunityProducts.csv,OpportunityProducts,fact_opportunity_product,No verified unique key,"Line-level sales; OpportunityID+ProductID repeats in 203 pairs (406 rows), so add/identify a line ID or confirm repeated product lines are legitimate."
+SalesReps.csv,SalesReps,dim_sales_rep,SalesRepID,Rep/manager/territory attributes; TargetAnnual may overlap with monthly Targets and must not be summed with them.
+Targets.csv,Targets,fact_sales_target,Month + SalesRepID (currently unique pair),"Monthly rep targets; target grain observed as one row per rep-month. Confirm target currency, scope, and target type."
+Date.csv,Date,dim_date,Date,Daily date dimension covering 2024-01-01 through 2026-12-31; use role-playing date relationships for created/expected close/actual close/activity dates.

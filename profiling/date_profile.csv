@@ -1,0 +1,11 @@
+table,column,nonnull,parseable_dates,invalid_nonnull_dates,min_date,max_date
+Activities,ActivityDate,40000,40000,0,2024-01-01,2026-09-30
+Campaigns,StartDate,30,30,0,2025-01-21,2026-08-22
+Date,Date,1096,1096,0,2024-01-01,2026-12-31
+Date,Month,1096,0,1096,,
+Leads,CreatedDate,5000,5000,0,2024-01-01,2026-09-30
+Leads,ConvertedDate,1394,1394,0,2024-01-11,2026-12-24
+Opportunities,CreatedDate,15000,15000,0,2024-01-01,2026-09-30
+Opportunities,ExpectedCloseDate,14820,14820,0,2024-01-23,2026-09-30
+Opportunities,ActualCloseDate,4784,4784,0,2024-02-03,2026-09-30
+Targets,Month,1650,1650,0,2024-01-01,2026-09-01

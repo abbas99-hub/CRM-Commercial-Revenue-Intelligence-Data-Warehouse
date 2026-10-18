@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="550" viewBox="0 0 1280 550">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#555"/></marker></defs>
+<text x="640.0" y="42" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#222">Commercial Revenue Intelligence — Logical Architecture</text>
+<line x1="255" y1="185" x2="310" y2="185" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="550" y1="185" x2="605" y2="185" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="885" y1="185" x2="940" y2="185" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1080" y1="290" x2="1080" y2="360" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="940" y1="420" x2="855" y2="420" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="605" y1="420" x2="550" y2="420" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="145" y1="365" x2="145" y2="260" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="255" y1="425" x2="605" y2="240" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="110" width="220" height="150" rx="12" fill="#dae8fc" stroke="#555" stroke-width="1.5"/>
+<text x="145.0" y="135" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">Source files</text>
+<text x="145.0" y="158" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">11 CSV entities</text>
+<text x="145.0" y="177" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">CRM, activity, product, target</text>
+<rect x="310" y="110" width="240" height="150" rx="12" fill="#dae8fc" stroke="#555" stroke-width="1.5"/>
+<text x="430.0" y="135" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">BRONZE · brz</text>
+<text x="430.0" y="158" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Raw and replayable</text>
+<text x="430.0" y="177" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Batch + row lineage</text>
+<rect x="605" y="100" width="280" height="175" rx="12" fill="#d5e8d4" stroke="#555" stroke-width="1.5"/>
+<text x="745.0" y="125" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">SILVER · slv</text>
+<text x="745.0" y="148" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Typed and conformed</text>
+<text x="745.0" y="167" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Quality rules + quarantine</text>
+<text x="745.0" y="186" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">No arbitrary deduplication</text>
+<rect x="940" y="100" width="280" height="190" rx="12" fill="#fff2cc" stroke="#555" stroke-width="1.5"/>
+<text x="1080.0" y="125" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">GOLD · gld</text>
+<text x="1080.0" y="148" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Star schema</text>
+<text x="1080.0" y="167" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Facts + dimensions</text>
+<text x="1080.0" y="186" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Resolved opportunities only</text>
+<rect x="940" y="360" width="280" height="125" rx="12" fill="#e1d5e7" stroke="#555" stroke-width="1.5"/>
+<text x="1080.0" y="385" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">GOVERNED VIEWS · rpt</text>
+<text x="1080.0" y="408" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Approved KPI SQL views</text>
+<text x="1080.0" y="427" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Read-only access</text>
+<rect x="605" y="375" width="250" height="105" rx="12" fill="#e1d5e7" stroke="#555" stroke-width="1.5"/>
+<text x="730.0" y="400" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">Power BI</text>
+<text x="730.0" y="423" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Certified semantic model</text>
+<rect x="310" y="365" width="240" height="125" rx="12" fill="#f5f5f5" stroke="#555" stroke-width="1.5"/>
+<text x="430.0" y="390" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">Future AI access</text>
+<text x="430.0" y="413" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Allowlisted views only</text>
+<text x="430.0" y="432" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Read-only + audited</text>
+<rect x="35" y="365" width="220" height="125" rx="12" fill="#f5f5f5" stroke="#555" stroke-width="1.5"/>
+<text x="145.0" y="390" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#222">CONTROL · ctl</text>
+<text x="145.0" y="413" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Batch manifest</text>
+<text x="145.0" y="432" text-anchor="middle" font-family="Arial" font-size="12" fill="#222">Exceptions + audit log</text>
+</svg>

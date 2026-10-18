@@ -1,0 +1,19 @@
+Table,Column,Definition,Usage
+Accounts,AccountID,Unique account identifier,Primary key
+Accounts,Industry,Customer industry,Dimension
+Accounts,Segment,Enterprise / Mid-Market / SMB,Dimension
+Opportunities,OpportunityID,CRM opportunity identifier,Primary key; 35 intentional duplicates
+Opportunities,Stage,Current sales stage,Pipeline dimension
+Opportunities,EstimatedRevenue,Opportunity value,Core commercial measure
+Opportunities,ProbabilityPct,Stage-based probability,Forecasting
+Opportunities,CreatedDate,Opportunity creation date,Sales-cycle analysis
+Opportunities,ExpectedCloseDate,Expected close date,Forecast / ageing
+Opportunities,ActualCloseDate,Actual close date for closed deals,Won/lost analysis
+OpportunityProducts,LineRevenue,Revenue at opportunity-product level,Product analysis
+Activities,ActivityType,Call/email/meeting/task/demo,Sales activity
+Activities,Outcome,Activity result,Sales effectiveness
+Targets,RevenueTarget,Monthly revenue target per rep,Target vs actual
+Targets,PipelineTarget,Monthly pipeline target per rep,Coverage analysis
+Campaigns,Budget,Campaign budget,Marketing efficiency
+Leads,LeadScore,Lead quality score,Lead qualification
+Leads,ConvertedDate,Lead conversion date,Funnel conversion

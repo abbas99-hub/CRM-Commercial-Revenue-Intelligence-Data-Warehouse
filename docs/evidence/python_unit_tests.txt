@@ -1,0 +1,11 @@
+test_core_source_row_count (test_portfolio_contracts.SourceContractTests.test_core_source_row_count) ... ok
+test_expected_open_stage_contract (test_portfolio_contracts.SourceContractTests.test_expected_open_stage_contract) ... ok
+test_month_rep_target_grain_is_unique (test_portfolio_contracts.SourceContractTests.test_month_rep_target_grain_is_unique) ... ok
+test_opportunity_conflicts_are_detectable (test_portfolio_contracts.SourceContractTests.test_opportunity_conflicts_are_detectable) ... ok
+test_repeated_product_pairs_are_not_assumed_unique (test_portfolio_contracts.SourceContractTests.test_repeated_product_pairs_are_not_assumed_unique) ... ok
+test_required_phase_artifacts_exist (test_portfolio_contracts.SourceContractTests.test_required_phase_artifacts_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.349s
+
+OK

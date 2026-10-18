@@ -1,0 +1,12 @@
+SourceFile,ExpectedBronzeRows,ExpectedColumns,MalformedRowWidthCount
+Accounts.csv,500,10,0
+Activities.csv,40000,8,0
+Campaigns.csv,30,6,0
+Contacts.csv,1500,5,0
+Date.csv,1096,8,0
+Leads.csv,5000,9,0
+Opportunities.csv,15000,15,0
+OpportunityProducts.csv,28911,6,0
+Products.csv,100,6,0
+SalesReps.csv,50,6,0
+Targets.csv,1650,5,0

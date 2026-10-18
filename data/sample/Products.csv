@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,UnitPrice,StandardMarginPct,Active
+PROD001,Networking Solution 001,Networking,50000,0.219,True
+PROD002,Cybersecurity Solution 002,Cybersecurity,10000,0.388,True
+PROD003,Consulting Solution 003,Consulting,2500,0.21,True
+PROD004,Cloud Solution 004,Cloud,35000,0.366,True
+PROD005,Cloud Solution 005,Cloud,10000,0.33,True
+PROD006,Networking Solution 006,Networking,35000,0.199,True
+PROD007,CRM Solution 007,CRM,2500,0.237,True
+PROD008,Cybersecurity Solution 008,Cybersecurity,100000,0.32,True
+PROD009,Networking Solution 009,Networking,75000,0.355,True
+PROD010,Data & AI Solution 010,Data & AI,5000,0.197,True
+PROD011,Managed Services Solution 011,Managed Services,75000,0.285,True
+PROD012,Managed Services Solution 012,Managed Services,100000,0.212,True
+PROD013,Cybersecurity Solution 013,Cybersecurity,100000,0.397,True
+PROD014,CRM Solution 014,CRM,10000,0.374,True
+PROD015,Cybersecurity Solution 015,Cybersecurity,35000,0.418,True
+PROD016,Data & AI Solution 016,Data & AI,20000,0.3,True
+PROD017,Data & AI Solution 017,Data & AI,35000,0.367,True
+PROD018,Cybersecurity Solution 018,Cybersecurity,2500,0.401,True
+PROD019,Cloud Solution 019,Cloud,2500,0.3,True
+PROD020,CRM Solution 020,CRM,10000,0.297,True
+PROD021,Managed Services Solution 021,Managed Services,100000,0.375,True
+PROD022,Cloud Solution 022,Cloud,35000,0.364,True
+PROD023,Cybersecurity Solution 023,Cybersecurity,10000,0.269,True
+PROD024,Cybersecurity Solution 024,Cybersecurity,50000,0.207,True
+PROD025,Networking Solution 025,Networking,35000,0.241,True
+PROD026,Consulting Solution 026,Consulting,20000,0.371,True
+PROD027,Cloud Solution 027,Cloud,75000,0.244,True
+PROD028,Networking Solution 028,Networking,2500,0.327,True
+PROD029,Cloud Solution 029,Cloud,2500,0.405,True
+PROD030,Cloud Solution 030,Cloud,75000,0.239,True
+PROD031,Managed Services Solution 031,Managed Services,5000,0.395,False
+PROD032,Cloud Solution 032,Cloud,5000,0.206,True
+PROD033,Cybersecurity Solution 033,Cybersecurity,10000,0.182,True
+PROD034,Data & AI Solution 034,Data & AI,5000,0.311,True
+PROD035,Data & AI Solution 035,Data & AI,2500,0.327,True
+PROD036,Cybersecurity Solution 036,Cybersecurity,2500,0.284,True
+PROD037,Consulting Solution 037,Consulting,20000,0.308,True
+PROD038,Networking Solution 038,Networking,50000,0.34,True
+PROD039,Cybersecurity Solution 039,Cybersecurity,2500,0.375,True
+PROD040,Cloud Solution 040,Cloud,10000,0.244,True
+PROD041,Cybersecurity Solution 041,Cybersecurity,10000,0.313,True
+PROD042,Consulting Solution 042,Consulting,5000,0.353,True
+PROD043,CRM Solution 043,CRM,10000,0.226,True
+PROD044,Managed Services Solution 044,Managed Services,50000,0.373,True
+PROD045,Consulting Solution 045,Consulting,10000,0.273,True
+PROD046,Consulting Solution 046,Consulting,5000,0.257,False
+PROD047,Cybersecurity Solution 047,Cybersecurity,100000,0.186,True
+PROD048,Cybersecurity Solution 048,Cybersecurity,2500,0.252,True
+PROD049,Cloud Solution 049,Cloud,2500,0.325,True
+PROD050,Cybersecurity Solution 050,Cybersecurity,35000,0.214,True
+PROD051,Consulting Solution 051,Consulting,2500,0.301,True
+PROD052,Cloud Solution 052,Cloud,75000,0.313,True
+PROD053,Networking Solution 053,Networking,2500,0.195,True
+PROD054,Cybersecurity Solution 054,Cybersecurity,5000,0.395,True
+PROD055,CRM Solution 055,CRM,35000,0.412,True
+PROD056,Cloud Solution 056,Cloud,20000,0.25,True
+PROD057,Cloud Solution 057,Cloud,20000,0.197,True
+PROD058,CRM Solution 058,CRM,2500,0.295,True
+PROD059,Managed Services Solution 059,Managed Services,50000,0.286,True
+PROD060,CRM Solution 060,CRM,75000,0.181,True
+PROD061,Networking Solution 061,Networking,100000,0.337,True
+PROD062,Cloud Solution 062,Cloud,50000,0.236,True
+PROD063,Data & AI Solution 063,Data & AI,35000,0.23,True
+PROD064,Networking Solution 064,Networking,5000,0.339,True
+PROD065,Data & AI Solution 065,Data & AI,50000,0.318,True
+PROD066,CRM Solution 066,CRM,35000,0.193,True
+PROD067,Managed Services Solution 067,Managed Services,5000,0.368,True
+PROD068,Data & AI Solution 068,Data & AI,75000,0.411,True
+PROD069,Data & AI Solution 069,Data & AI,20000,0.379,True
+PROD070,Cloud Solution 070,Cloud,35000,0.211,True
+PROD071,Networking Solution 071,Networking,50000,0.342,True
+PROD072,CRM Solution 072,CRM,35000,0.335,True
+PROD073,Managed Services Solution 073,Managed Services,5000,0.198,True
+PROD074,Cloud Solution 074,Cloud,35000,0.352,True
+PROD075,Consulting Solution 075,Consulting,100000,0.245,True
+PROD076,CRM Solution 076,CRM,35000,0.227,True
+PROD077,Managed Services Solution 077,Managed Services,35000,0.385,True
+PROD078,CRM Solution 078,CRM,5000,0.305,True
+PROD079,Networking Solution 079,Networking,5000,0.252,True
+PROD080,CRM Solution 080,CRM,50000,0.277,True
+PROD081,Cloud Solution 081,Cloud,10000,0.283,True
+PROD082,Cybersecurity Solution 082,Cybersecurity,35000,0.315,True
+PROD083,CRM Solution 083,CRM,75000,0.203,False
+PROD084,Cloud Solution 084,Cloud,50000,0.282,True
+PROD085,Managed Services Solution 085,Managed Services,100000,0.374,True
+PROD086,Data & AI Solution 086,Data & AI,35000,0.195,True
+PROD087,CRM Solution 087,CRM,5000,0.345,True
+PROD088,Cybersecurity Solution 088,Cybersecurity,2500,0.346,True
+PROD089,Networking Solution 089,Networking,50000,0.267,True
+PROD090,Data & AI Solution 090,Data & AI,10000,0.413,True
+PROD091,Cloud Solution 091,Cloud,75000,0.282,True
+PROD092,Data & AI Solution 092,Data & AI,2500,0.378,True
+PROD093,Cybersecurity Solution 093,Cybersecurity,10000,0.253,True
+PROD094,Data & AI Solution 094,Data & AI,100000,0.351,True
+PROD095,Managed Services Solution 095,Managed Services,20000,0.274,True
+PROD096,CRM Solution 096,CRM,35000,0.268,True
+PROD097,CRM Solution 097,CRM,5000,0.339,True
+PROD098,Cybersecurity Solution 098,Cybersecurity,2500,0.29,True
+PROD099,Consulting Solution 099,Consulting,10000,0.186,True
+PROD100,Managed Services Solution 100,Managed Services,10000,0.235,True

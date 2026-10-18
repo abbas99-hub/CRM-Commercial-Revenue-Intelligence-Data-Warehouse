@@ -1,0 +1,185 @@
+{
+  "Accounts": {
+    "file": "Accounts.csv",
+    "table": "brz.Accounts",
+    "columns": [
+      "AccountID",
+      "AccountName",
+      "Industry",
+      "Country",
+      "City",
+      "Segment",
+      "TerritoryID",
+      "AnnualRevenue",
+      "Employees",
+      "AccountStatus"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "51f4e0eb9d093dccdb1d5f9ece2d77c7f415db331d80ba29de4cd357d353aa03"
+  },
+  "Activities": {
+    "file": "Activities.csv",
+    "table": "brz.Activities",
+    "columns": [
+      "ActivityID",
+      "OpportunityID",
+      "AccountID",
+      "SalesRepID",
+      "ActivityDate",
+      "ActivityType",
+      "Outcome",
+      "DurationMinutes"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "ca156effb2ce133c52e6a6bfd866edc07bf232c078d075b9756cbf62707836b2"
+  },
+  "Campaigns": {
+    "file": "Campaigns.csv",
+    "table": "brz.Campaigns",
+    "columns": [
+      "CampaignID",
+      "CampaignName",
+      "CampaignType",
+      "StartDate",
+      "Budget",
+      "TargetSegment"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "94fe13ded5f60f11baf19e52a034a92caf0808c27405053bb5601457d9fdc07f"
+  },
+  "Contacts": {
+    "file": "Contacts.csv",
+    "table": "brz.Contacts",
+    "columns": [
+      "ContactID",
+      "AccountID",
+      "ContactName",
+      "JobTitle",
+      "EmailOptIn"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "29653fa1aa2e723b68dc6014e4ad2b44ade87330c91f3398c1a9a66e125bba25"
+  },
+  "Date": {
+    "file": "Date.csv",
+    "table": "brz.Date",
+    "columns": [
+      "Date",
+      "Year",
+      "MonthNumber",
+      "Month",
+      "YearMonth",
+      "Quarter",
+      "WeekNumber",
+      "IsMonthEnd"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "fb1d8646ad3b9841053babb3e6343c625455b5a2a3d30d00b34407ed63605a77"
+  },
+  "Leads": {
+    "file": "Leads.csv",
+    "table": "brz.Leads",
+    "columns": [
+      "LeadID",
+      "CreatedDate",
+      "AccountID",
+      "LeadSource",
+      "Industry",
+      "LeadScore",
+      "Status",
+      "ConvertedDate",
+      "SalesRepID"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "be9158008b3aea8b366a1d6e150dacfeee675282b44ac265b46fa7cb6610e9f9"
+  },
+  "Opportunities": {
+    "file": "Opportunities.csv",
+    "table": "brz.Opportunities",
+    "columns": [
+      "OpportunityID",
+      "AccountID",
+      "SalesRepID",
+      "CreatedDate",
+      "ExpectedCloseDate",
+      "ActualCloseDate",
+      "Stage",
+      "EstimatedRevenue",
+      "ProbabilityPct",
+      "LeadSource",
+      "Industry",
+      "Segment",
+      "CampaignID",
+      "ForecastCategory",
+      "CompetitorInvolved"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "fde2391d5aaa18df2ab4cd597ed08a5cb2c12093483b9c8d4fc51f7396cb787c"
+  },
+  "OpportunityProducts": {
+    "file": "OpportunityProducts.csv",
+    "table": "brz.OpportunityProducts",
+    "columns": [
+      "OpportunityID",
+      "ProductID",
+      "Quantity",
+      "DiscountPct",
+      "LineRevenue",
+      "EstimatedCost"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "b6d4021203d88394d7fdf9c8407f96ae87600bca3f04fcc8efdcfc19d59ba008"
+  },
+  "Products": {
+    "file": "Products.csv",
+    "table": "brz.Products",
+    "columns": [
+      "ProductID",
+      "ProductName",
+      "Category",
+      "UnitPrice",
+      "StandardMarginPct",
+      "Active"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "69f1efd936e05a941dfe02fa5ebdbf434c948970015057dcf34103a4b714f106"
+  },
+  "SalesReps": {
+    "file": "SalesReps.csv",
+    "table": "brz.SalesReps",
+    "columns": [
+      "SalesRepID",
+      "SalesRepName",
+      "ManagerName",
+      "TerritoryID",
+      "Region",
+      "TargetAnnual"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "d831a2b291445ad47f94c1c613e2fc3962d6a4d3465ee8867e52efa51051c2c3"
+  },
+  "Targets": {
+    "file": "Targets.csv",
+    "table": "brz.Targets",
+    "columns": [
+      "Month",
+      "SalesRepID",
+      "RevenueTarget",
+      "PipelineTarget",
+      "WinRateTargetPct"
+    ],
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "expected_header_sha256": "a97e9482219da65806a113992109d266b0d05396750d8cf00c21ad997d32d222"
+  }
+}

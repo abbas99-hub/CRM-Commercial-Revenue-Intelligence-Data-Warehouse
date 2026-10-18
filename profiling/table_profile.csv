@@ -1,0 +1,12 @@
+table,source_file,row_count,column_count,exact_duplicate_rows,memory_usage_bytes
+Accounts,Accounts.csv,500,10,0,233501
+Activities,Activities.csv,40000,8,0,16213278
+Campaigns,Campaigns.csv,30,6,0,9087
+Contacts,Contacts.csv,1500,5,0,353453
+Date,Date.csv,1096,8,0,266460
+Leads,Leads.csv,5000,9,0,2242601
+Opportunities,Opportunities.csv,15000,15,0,10301265
+OpportunityProducts,OpportunityProducts.csv,28911,6,0,4192227
+Products,Products.csv,100,6,0,20350
+SalesReps,SalesReps.csv,50,6,0,14482
+Targets,Targets.csv,1650,5,0,227832

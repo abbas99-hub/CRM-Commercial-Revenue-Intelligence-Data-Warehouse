@@ -1,0 +1,85 @@
+Entity,Column,InferredType,Definition,Usage,NullsInSample,SourceFile
+Accounts,AccountID,string / categorical,Unique account identifier,Primary key,0,Accounts.csv
+Accounts,AccountName,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Accounts.csv
+Accounts,Industry,string / categorical,Customer industry,Dimension,0,Accounts.csv
+Accounts,Country,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Accounts.csv
+Accounts,City,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Accounts.csv
+Accounts,Segment,string / categorical,Enterprise / Mid-Market / SMB,Dimension,0,Accounts.csv
+Accounts,TerritoryID,string / categorical,Accounts identifier or source-system relationship key,,0,Accounts.csv
+Accounts,AnnualRevenue,numeric (integer-like),Monetary value; source currency unverified (AED used by project convention),,0,Accounts.csv
+Accounts,Employees,numeric (integer-like),Source attribute; see source profile and transformation rules for business interpretation,,0,Accounts.csv
+Accounts,AccountStatus,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Accounts.csv
+Activities,ActivityID,string / categorical,Activities identifier or source-system relationship key,,0,Activities.csv
+Activities,OpportunityID,string / categorical,Activities identifier or source-system relationship key,,0,Activities.csv
+Activities,AccountID,string / categorical,Activities identifier or source-system relationship key,,0,Activities.csv
+Activities,SalesRepID,string / categorical,Activities identifier or source-system relationship key,,0,Activities.csv
+Activities,ActivityDate,date / nullable,Business event date or reporting period; nulls require explicit handling,,0,Activities.csv
+Activities,ActivityType,string / categorical,Call/email/meeting/task/demo,Sales activity,0,Activities.csv
+Activities,Outcome,string / categorical,Activity result,Sales effectiveness,0,Activities.csv
+Activities,DurationMinutes,numeric (integer-like),Source attribute; see source profile and transformation rules for business interpretation,,0,Activities.csv
+Campaigns,CampaignID,string / categorical,Campaigns identifier or source-system relationship key,,0,Campaigns.csv
+Campaigns,CampaignName,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Campaigns.csv
+Campaigns,CampaignType,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Campaigns.csv
+Campaigns,StartDate,date / nullable,Business event date or reporting period; nulls require explicit handling,,0,Campaigns.csv
+Campaigns,Budget,numeric (integer-like),Campaign budget,Marketing efficiency,0,Campaigns.csv
+Campaigns,TargetSegment,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Campaigns.csv
+Contacts,ContactID,string / categorical,Contacts identifier or source-system relationship key,,0,Contacts.csv
+Contacts,AccountID,string / categorical,Contacts identifier or source-system relationship key,,0,Contacts.csv
+Contacts,ContactName,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Contacts.csv
+Contacts,JobTitle,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Contacts.csv
+Contacts,EmailOptIn,boolean,Source attribute; see source profile and transformation rules for business interpretation,,0,Contacts.csv
+Date,Date,date / nullable,Business event date or reporting period; nulls require explicit handling,,0,Date.csv
+Date,Year,numeric (integer-like),Source attribute; see source profile and transformation rules for business interpretation,,0,Date.csv
+Date,MonthNumber,numeric (integer-like),Source attribute; see source profile and transformation rules for business interpretation,,0,Date.csv
+Date,Month,string / categorical,Business event date or reporting period; nulls require explicit handling,,0,Date.csv
+Date,YearMonth,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Date.csv
+Date,Quarter,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Date.csv
+Date,WeekNumber,numeric (integer-like),Source attribute; see source profile and transformation rules for business interpretation,,0,Date.csv
+Date,IsMonthEnd,boolean,Source attribute; see source profile and transformation rules for business interpretation,,0,Date.csv
+Leads,LeadID,string / categorical,Leads identifier or source-system relationship key,,0,Leads.csv
+Leads,CreatedDate,date / nullable,Business event date or reporting period; nulls require explicit handling,,0,Leads.csv
+Leads,AccountID,string / categorical,Leads identifier or source-system relationship key,,0,Leads.csv
+Leads,LeadSource,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Leads.csv
+Leads,Industry,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Leads.csv
+Leads,LeadScore,numeric (integer-like),Lead quality score,Lead qualification,0,Leads.csv
+Leads,Status,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Leads.csv
+Leads,ConvertedDate,date / nullable,Lead conversion date,Funnel conversion,139,Leads.csv
+Leads,SalesRepID,string / categorical,Leads identifier or source-system relationship key,,0,Leads.csv
+Opportunities,OpportunityID,string / categorical,CRM opportunity identifier,Primary key; 35 intentional duplicates,0,Opportunities.csv
+Opportunities,AccountID,string / categorical,Opportunities identifier or source-system relationship key,,0,Opportunities.csv
+Opportunities,SalesRepID,string / categorical,Opportunities identifier or source-system relationship key,,1,Opportunities.csv
+Opportunities,CreatedDate,date / nullable,Opportunity creation date,Sales-cycle analysis,0,Opportunities.csv
+Opportunities,ExpectedCloseDate,date / nullable,Expected close date,Forecast / ageing,6,Opportunities.csv
+Opportunities,ActualCloseDate,date / nullable,Actual close date for closed deals,Won/lost analysis,139,Opportunities.csv
+Opportunities,Stage,string / categorical,Current sales stage,Pipeline dimension,0,Opportunities.csv
+Opportunities,EstimatedRevenue,numeric (integer-like),Opportunity value,Core commercial measure,0,Opportunities.csv
+Opportunities,ProbabilityPct,numeric (integer-like),Stage-based probability,Forecasting,0,Opportunities.csv
+Opportunities,LeadSource,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Opportunities.csv
+Opportunities,Industry,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Opportunities.csv
+Opportunities,Segment,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Opportunities.csv
+Opportunities,CampaignID,string / categorical,Opportunities identifier or source-system relationship key,,25,Opportunities.csv
+Opportunities,ForecastCategory,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Opportunities.csv
+Opportunities,CompetitorInvolved,boolean,Source attribute; see source profile and transformation rules for business interpretation,,0,Opportunities.csv
+OpportunityProducts,OpportunityID,string / categorical,OpportunityProducts identifier or source-system relationship key,,0,OpportunityProducts.csv
+OpportunityProducts,ProductID,string / categorical,OpportunityProducts identifier or source-system relationship key,,0,OpportunityProducts.csv
+OpportunityProducts,Quantity,numeric (integer-like),Source attribute; see source profile and transformation rules for business interpretation,,0,OpportunityProducts.csv
+OpportunityProducts,DiscountPct,numeric (decimal),Percentage/rate value; validate whether stored as fraction or percentage points,,0,OpportunityProducts.csv
+OpportunityProducts,LineRevenue,numeric (decimal),Revenue at opportunity-product level,Product analysis,0,OpportunityProducts.csv
+OpportunityProducts,EstimatedCost,numeric (decimal),Monetary value; source currency unverified (AED used by project convention),,0,OpportunityProducts.csv
+Products,ProductID,string / categorical,Products identifier or source-system relationship key,,0,Products.csv
+Products,ProductName,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Products.csv
+Products,Category,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,Products.csv
+Products,UnitPrice,numeric (integer-like),Monetary value; source currency unverified (AED used by project convention),,0,Products.csv
+Products,StandardMarginPct,numeric (decimal),Percentage/rate value; validate whether stored as fraction or percentage points,,0,Products.csv
+Products,Active,boolean,Source attribute; see source profile and transformation rules for business interpretation,,0,Products.csv
+SalesReps,SalesRepID,string / categorical,SalesReps identifier or source-system relationship key,,0,SalesReps.csv
+SalesReps,SalesRepName,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,SalesReps.csv
+SalesReps,ManagerName,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,SalesReps.csv
+SalesReps,TerritoryID,string / categorical,SalesReps identifier or source-system relationship key,,0,SalesReps.csv
+SalesReps,Region,string / categorical,Source attribute; see source profile and transformation rules for business interpretation,,0,SalesReps.csv
+SalesReps,TargetAnnual,numeric (integer-like),Monetary value; source currency unverified (AED used by project convention),,0,SalesReps.csv
+Targets,Month,date / nullable,Business event date or reporting period; nulls require explicit handling,,0,Targets.csv
+Targets,SalesRepID,string / categorical,Targets identifier or source-system relationship key,,0,Targets.csv
+Targets,RevenueTarget,numeric (decimal),Monthly revenue target per rep,Target vs actual,0,Targets.csv
+Targets,PipelineTarget,numeric (decimal),Monthly pipeline target per rep,Coverage analysis,0,Targets.csv
+Targets,WinRateTargetPct,numeric (decimal),Percentage/rate value; validate whether stored as fraction or percentage points,,0,Targets.csv

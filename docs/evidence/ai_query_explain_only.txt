@@ -1,0 +1,5 @@
+Governed intent: open_pipeline
+Description: Eligible open opportunities, current age, expected-close date and past-due status.
+Approved view: rpt.ai_OpenPipeline
+Parameterized SQL: SELECT TOP (?) OpportunityID,Customer,SalesRepresentative,Manager,Region,Stage,ForecastCategory,ExpectedCloseDate,OpenPipelineAED,ProbabilityPct,AgeInDays,IsPastExpectedCloseDate,DaysPastDue FROM rpt.ai_OpenPipeline WHERE (? IS NULL OR Region = ?) AND (? IS NULL OR ExpectedCloseDate >= ?) AND (? IS NULL OR ExpectedCloseDate < DATEADD(day,1,?)) ORDER BY OpenPipelineAED DESC
+Mode: EXPLAIN ONLY (WAREHOUSE_SQL_CONNECTION not set); no query executed.
