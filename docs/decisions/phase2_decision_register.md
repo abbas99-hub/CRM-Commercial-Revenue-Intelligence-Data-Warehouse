@@ -1,7 +1,5 @@
 # Phase 2 Decision Register
 
-Status key: **Approved design** = chosen for this portfolio build; **Pending validation** = must be confirmed against source/business owner before production claims.
-
 | ID | Topic | Decision | Status / control |
 |---|---|---|---|
 | DQ-001 | Conflicting duplicate OpportunityID | Preserve all source rows in Bronze; identify every conflicting key; quarantine all records for affected IDs from trusted opportunity facts until a documented authoritative resolution. Never pick a row arbitrarily. | Approved design |
