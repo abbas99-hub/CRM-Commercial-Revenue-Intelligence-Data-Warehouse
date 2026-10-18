@@ -124,7 +124,7 @@ Create an empty SQL Server database named `CommercialRevenueIntelligence` (or up
 15. `sql/06_ai_access/100_create_ai_business_views.sql`
 16. Review and adapt `sql/06_ai_access/110_ai_access_permissions.sql` for a dedicated least-privilege database principal, then run `sql/06_ai_access/200_ai_access_smoke_tests.sql` under that principal.
 
-**Execution notes:** stored procedure definition scripts do not themselves execute transformations. Follow the specific `EXEC` instructions in the corresponding phase documentation and procedure signatures. Run first in a disposable test database, inspect procedure parameters, and capture actual result sets. The scripts are implementation artifacts and are not represented as having been run against SQL Server in this package.
+**Execution notes:** stored procedure definition scripts do not themselves execute transformations. Follow the specific `EXEC` instructions in the corresponding phase documentation and procedure signatures. Run first in a disposable test database, inspect procedure parameters, and capture actual result sets. 
 
 ### 5. Load CSVs into Bronze
 
