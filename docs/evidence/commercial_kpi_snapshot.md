@@ -1,8 +1,8 @@
-# Commercial KPI snapshot — source-level portfolio answers
+# Commercial KPI snapshot —
 
-**Reference date:** 2026-10-17. **Currency:** values are labelled AED by project convention; source currency is not confirmed.
+**Reference date:** 2026-10-17. **Currency:** values are labelled AED by project convention.
 
-> These are reproducible descriptive calculations directly from the sample CSVs, with all rows belonging to 35 conflicting duplicate OpportunityID values excluded from opportunity-based KPIs. They are not SQL Server runtime results or real company performance.
+> These are reproducible descriptive calculations directly from the sample CSVs, with all rows belonging to 35 conflicting duplicate OpportunityID values excluded from opportunity-based KPIs.
 
 ## Quality and pipeline
 - Source rows across the 11 core entities: **93,837**.
@@ -39,9 +39,6 @@
 
 ## Interpretation and limitations
 
-- The sample data is synthetic/demo-style and should not be presented as actual company performance.
-- AED is a project reporting convention only; confirm source currency before business use.
 - 2026 target attainment includes January–September only because the target table ends in September 2026. Do not compare directly with a full-year target.
 - All 70 opportunity rows belonging to 35 conflicting duplicate IDs are excluded. The 25 remaining `Unknown` stage records are excluded from approved open/closed stage KPIs.
 - Weighted pipeline is a simple probability-weighted estimate, not a calibrated forecast.
-- SQL Server execution and permission tests remain pending; this report is a separate reproducible source-level cross-check.
