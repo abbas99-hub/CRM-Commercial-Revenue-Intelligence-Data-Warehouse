@@ -1,7 +1,5 @@
 # Commercial Revenue Intelligence Data Warehouse
 
-[![Source validation](docs/evidence/validation-status.svg)](docs/evidence/phase8_test_matrix.md)
-
 A SQL-first analytics engineering project that turns CRM sales data into a governed commercial KPI layer for revenue performance, pipeline management, target attainment, lead conversion, sales activity and product-line analysis. The final layer exposes approved business-named SQL views for BI tools and a constrained AI-query prototype.
 
 ## Business problem
