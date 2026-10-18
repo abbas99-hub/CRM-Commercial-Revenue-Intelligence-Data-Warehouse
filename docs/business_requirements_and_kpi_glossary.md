@@ -36,21 +36,3 @@ Build a reproducible SQL-based commercial revenue data warehouse from CRM CSV so
 | Activity Intensity | Count of relevant activities per opportunity/rep over a defined period | Association is not causation; avoid ranking reps on activity volume alone.
 | Gross Margin Proxy | Sum(LineRevenue - EstimatedCost) / sum(LineRevenue) | Use opportunity-product data; confirm whether line amounts reflect won business or pipeline estimates.
 | Data Completeness | Records passing defined required-field checks / records in scope | Publish rule-level failures, not only one opaque score.
-
-## Assumptions and decisions to confirm
-- The supplied CSVs are synthetic/sample CRM-style data, not verified production extracts.
-- Currency is not explicitly specified in the source files; do not label financial values AED until confirmed.
-- OpportunityID duplicates are conflicting records and must not be silently deduplicated.
-- OpportunityProducts repeated OpportunityID + ProductID pairs may be multiple valid lines; source has no line identifier.
-- `SalesReps.TargetAnnual` and monthly `Targets` may represent overlapping target concepts; do not combine until reconciled.
-- Campaign attribution is optional because Opportunities.CampaignID is nullable.
-- ForecastCategory and Stage combinations need a business rule; do not infer mappings from labels alone.
-- Leads and opportunities are separate process entities; no explicit LeadID-to-OpportunityID bridge exists in the provided files.
-- Current-state opportunity records do not establish historical forecast snapshots.
-
-## Acceptance criteria for Phase 1
-- All source files catalogued and profiled.
-- Candidate keys, nulls, duplicates, date ranges, numeric bounds, and relationship candidates documented.
-- High-risk issues identified and assigned a proposed treatment for Phase 2.
-- Draft source-to-target mapping and KPI glossary published.
-- No warehouse DDL is finalized until grain and key decisions are resolved.
