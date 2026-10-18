@@ -198,11 +198,11 @@ Selected results from the supplied sample dataset:
 commercial_revenue_intelligence_warehouse/
 ├── README.md
 ├── architecture/                 # editable Draw.io + SVG architecture/data flow
-├── data/sample/                  # synthetic/demo CSV inputs
+├── data/sample/                  # CRM CSV inputs
 ├── docs/
 │   ├── ai_access/                # view registry, questions, governance
 │   ├── decisions/                # architecture decision register
-│   ├── evidence/                 # offline checks, test matrix, KPI results
+│   ├── evidence/                 # data checks, test matrix, KPI results
 │   ├── images/                   # README-renderable architecture SVGs
 │   ├── runbooks/                 # setup / execution notes
 │   ├── stories/                  # LinkedIn and Medium drafts
@@ -221,6 +221,6 @@ commercial_revenue_intelligence_warehouse/
 │   ├── ai_access/                 # governed fixed-intent query prototype
 │   ├── analysis/                  # reproducible source-level KPI calculations
 │   ├── ingestion/                 # CSV-to-Bronze loader
-│   └── validation/                # offline source validator
+│   └── validation/                # source validator
 └── tests/                         # local contract tests
 ```
