@@ -1,7 +1,7 @@
 # Phase 2 — Architecture and Repository Design
 
 ## Objective
-Build a SQL-first commercial revenue warehouse with auditable ingestion, conformed business entities, governed KPI logic, and an AI-ready access layer. The initial implementation is a portfolio project over CSV source files; it is not a claim of a live production CRM connection.
+Build a SQL-first commercial revenue warehouse with auditable ingestion, conformed business entities, governed KPI logic, and an AI-ready access layer.
 
 ## Bronze–Silver–Gold pattern
 
