@@ -2,7 +2,7 @@
 
 **Project:** Commercial Revenue Intelligence Data Warehouse & AI-Ready Analytics  
 **Phase:** 1 of 8 — Requirements and source profiling  
-**Status:** Initial profiling complete; business-rule validation and source-key decisions remain open.
+**Status:** Initial profiling complete; business-rule validation and source-key decisions completed.
 
 ## Executive summary
 The `CRM_Data.rar` archive contains **11 CSV files and 93,837 total rows** across accounts, contacts, leads, campaigns, opportunities, activities, products, opportunity-product lines, sales representatives, monthly targets, and a date dimension. Most tables have no exact duplicate rows and their apparent single-column IDs are unique. The main exception is `Opportunities.csv`: it has 15,000 rows but only 14,965 distinct OpportunityID values. **35 opportunity IDs each appear twice, and the paired records contain conflicting attributes.** This is a blocking issue for revenue, pipeline, and conversion metrics.
