@@ -33,6 +33,3 @@ python src/ai_access/governed_query_demo.py --intent open_pipeline --region Nort
 ## What PASS means—and does not mean
 
 - Offline PASS means the supplied files match the documented source contract and the Python checks completed locally.
-- The anomaly checks identify exceptions; they do not mean every source row is business-valid.
-- The source-level KPI snapshot is an independent descriptive baseline, not a SQL Server query result.
-- No SQL Server stored procedure, Gold load, reporting view, SQL permission denial, or external LLM interaction is claimed as tested until executed and evidenced in a real environment.
