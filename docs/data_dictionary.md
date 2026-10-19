@@ -26,7 +26,6 @@ This dictionary covers all columns in the 11 core source entities. `InferredType
 - **Win rate:** Closed Won / (Closed Won + Closed Lost), using dated outcomes and recomputing from counts at aggregate level.
 - **Lead conversion:** `Status = Converted` divided by leads created in cohort; not revenue conversion.
 - **Product line margin:** provisional `(LineRevenue - EstimatedCost) / LineRevenue`; not authoritative won revenue.
-- **Currency:** label monetary values AED only as a project convention pending source-owner confirmation.
 
 ## Full column-level dictionary
 
