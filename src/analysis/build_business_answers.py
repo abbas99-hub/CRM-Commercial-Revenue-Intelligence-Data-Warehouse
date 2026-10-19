@@ -1,8 +1,6 @@
-"""Build reproducible descriptive KPI answers from the provided sample CRM dataset.
+"""Build reproducible descriptive KPI answers from the provided CRM dataset.
 
-This script is a source-level portfolio analysis, not a replacement for SQL Server
 Gold/rpt execution. It excludes all rows belonging to duplicated OpportunityIDs.
-Monetary values are labelled AED by project convention; source currency is unverified.
 Usage: python src/analysis/build_business_answers.py --data-dir data/sample --out-dir docs/evidence
 """
 import argparse, json
