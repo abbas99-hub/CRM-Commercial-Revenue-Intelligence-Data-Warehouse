@@ -39,15 +39,7 @@ The source also includes 120 opportunities without a sales rep, 180 without expe
 ## Relationship candidates checked
 The following non-null key references matched: Contacts→Accounts; Activities→Opportunities/Accounts/SalesReps; Leads→Accounts/SalesReps; Opportunities→Accounts/SalesReps/Campaigns; OpportunityProducts→Opportunities/Products; Targets→SalesReps/Date. This is only a value-match check, not proof that all relationships should be enforced as database foreign keys. Duplicate OpportunityID values and null references still require handling.
 
-## Business-rule anomalies requiring confirmation
-1. **Stage versus ForecastCategory:** combinations are inconsistent—for example, records marked Closed Won or Closed Lost appear in categories other than Closed, and open stages appear in Closed. Confirm source semantics before remapping.
-2. **Unknown stage:** 25 rows. Map, quarantine, or retain as an explicit unknown category based on the business rule.
-3. **Lead conversion:** Converted leads have dates; non-converted statuses do not have ConvertedDate in the current data. This pattern is internally consistent.
-4. **Opportunity product grain:** repeated product IDs within an opportunity may be valid multiple line items. Need a line key or explicit rule.
-5. **Revenue reconciliation:** opportunity EstimatedRevenue and product LineRevenue may differ in definition. Reconcile before selecting the authoritative metric for won revenue and margin.
-6. **Historical forecasting:** no opportunity snapshot/history table is present, so historical forecast accuracy and true close-date slippage cannot be reconstructed from current-state records alone.
-
-## Proposed Phase 1 decisions (provisional)
+## Phase 1 decisions
 - Preserve all raw files unchanged in Bronze.
 - Do not silently delete or arbitrarily select between duplicate opportunities. Quarantine the conflicting IDs and investigate source provenance.
 - Do not treat `(OpportunityID, ProductID)` as a unique key without further evidence.
@@ -67,9 +59,3 @@ The following non-null key references matched: Contacts→Accounts; Activities�
 - `profiling/business_rule_checks.csv` — selected semantic checks.
 - `docs/business_requirements_and_kpi_glossary.md` — draft business questions and KPI definitions.
 - `docs/source_to_target_mapping_draft.csv` — proposed mapping and open assumptions.
-
-## Phase 2 entry criteria
-Before finalizing Bronze/Silver/Gold DDL, document a decision for duplicated OpportunityIDs, OpportunityProducts line grain, stage-to-forecast-category rules, authoritative revenue definition, target source, currency, and date semantics. If these cannot be confirmed from the source owner, retain explicit exception handling and document the limitation.
-
-## Article notes for Medium (working log)
-Potential story angle: “Before Building a Data Warehouse, I Profiled 93,837 CRM Records—and Found Why Forecasts Can’t Be Trusted Blindly.” Emphasize that profiling found conflicting opportunity IDs, repeated opportunity-product pairs, missing owners/close dates, and inconsistent forecast categories. Explain that these are validation findings in sample data—not actual production-company defects. The key lesson is that a warehouse starts with understanding the business grain and data trust, not writing SQL transformations immediately.
