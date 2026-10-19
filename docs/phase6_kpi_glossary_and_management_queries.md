@@ -129,5 +129,3 @@ FROM A FULL JOIN P ON P.YearMonth=A.YearMonth AND P.SalesRepKey=A.SalesRepKey;
 1. Ensure schemas and Gold tables exist and `gld.usp_LoadGold` completed successfully.
 2. Run `sql/05_analytics/100_create_commercial_kpi_views.sql`.
 3. Run `sql/05_analytics/200_phase6_definition_and_edge_case_tests.sql`.
-4. Review each test result, especially revenue reconciliation, target grain, unknown mappings and untrusted rows.
-5. Capture the SQL Server version, execution date, row counts and results as project evidence. Offline code review is not a substitute for runtime validation.
