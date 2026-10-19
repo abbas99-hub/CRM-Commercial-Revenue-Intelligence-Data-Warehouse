@@ -46,7 +46,6 @@ The following non-null key references matched: Contactsâ†’Accounts; Activitiesâ†
 4. **Opportunity product grain:** repeated product IDs within an opportunity may be valid multiple line items. Need a line key or explicit rule.
 5. **Revenue reconciliation:** opportunity EstimatedRevenue and product LineRevenue may differ in definition. Reconcile before selecting the authoritative metric for won revenue and margin.
 6. **Historical forecasting:** no opportunity snapshot/history table is present, so historical forecast accuracy and true close-date slippage cannot be reconstructed from current-state records alone.
-7. **Currency:** currency is not specified in the files; avoid assigning AED or another currency until confirmed.
 
 ## Proposed Phase 1 decisions (provisional)
 - Preserve all raw files unchanged in Bronze.
