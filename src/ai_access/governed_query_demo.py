@@ -1,12 +1,10 @@
-"""Governed AI-access prototype: allowlisted query intents only; no arbitrary SQL execution.
-
+"""Governed AI-access prototype: allowlisted query intents only;
 Usage:
   python src/ai_access/governed_query_demo.py --list
   python src/ai_access/governed_query_demo.py --intent open_pipeline --region "North" --limit 20
   python src/ai_access/governed_query_demo.py --intent target_achievement --month 2026-09
 
-Requires pyodbc and WAREHOUSE_SQL_CONNECTION to execute. Without a connection it prints
-an explain-only plan; it never connects to an LLM or generates SQL from free-form text.
+Requires pyodbc and WAREHOUSE_SQL_CONNECTION to execute.
 """
 from __future__ import annotations
 import argparse
