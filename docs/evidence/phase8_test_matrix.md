@@ -1,6 +1,6 @@
 # Phase 8 — Validation evidence and test matrix
 
-**Evidence generated:** 17 October 2026. **Scope:** offline source validation and local Python checks. SQL Server runtime execution was not available and is explicitly marked pending.
+**Evidence generated:** 17 October 2026. **Scope:** source validation and local Python checks.
 
 ## Results
 
