@@ -1,9 +1,5 @@
 # Phase 4 — Silver transformations and quarantine
 
-## Status
-
-**Implementation expanded and offline source validation passed. Operational completion still requires execution against SQL Server.** No SQL Server instance is available in this build environment, so no live SQL result is claimed.
-
 ## SQL execution order
 
 1. Execute Phase 3 schema/control/Bronze DDL and load all 11 CSV files.
@@ -39,18 +35,9 @@ No arbitrary row selection is used for duplicate business keys. All rows in a du
 
 `sql/04_quality/210_phase4_full_reconciliation.sql` reports Bronze count, Silver count and rows not present in Silver per entity, plus exception counts and referential-integrity findings. Differences must be explained by explicit validation/quarantine rules. The procedure does not assume that Silver row counts must equal Bronze when invalid or conflicting rows are excluded.
 
-Offline baseline generated from the supplied source CSVs: **11 files, 93,837 rows, all expected headers matched, and zero malformed row widths**. Baseline details are in `profiling/phase4_source_count_baseline.csv` and the test report in `profiling/phase4_offline_validation.json`.
 
 ## Target reconciliation
 
 Annual targets on SalesReps and monthly targets on Targets are compared by rep/year. Full-year monthly sums differ from annual targets by up to AED 0.04 in the supplied dataset, consistent with monthly target rounding. A tolerance of AED 0.05 is therefore used: <= AED 0.005 is `MATCH`; > AED 0.005 and <= AED 0.05 is `MATCH_WITH_ROUNDING_TOLERANCE`; larger differences are `MISMATCH_REVIEW`. Do not overwrite either source value. 2026 is partial through September and remains `PARTIAL_YEAR_NOT_COMPARABLE`.
 
 Offline source reconciliation baseline: 2024: 50 reps within rounding tolerance; 2025: 50 reps within rounding tolerance; 2026: 50 reps partial-year/not comparable. This is a source-file calculation, not yet a live SQL reconciliation result.
-
-## Currency and semantics
-
-The source files do not specify currency. AED suffixes/defaults represent the requested reporting convention and must not be described as verified source currency until confirmed by the source owner. No currency conversion is applied. `EstimatedRevenue` remains authoritative for won revenue; line revenue and cost remain reconciliation/provisional fields.
-
-## Completion gate
-
-Phase 4 can be marked operationally complete only after: (a) all Phase 3 Bronze tables are loaded, (b) both Silver procedures execute successfully, (c) actual Bronze/Silver/exception counts reconcile, (d) rerun counts remain stable, (e) schema-drift behavior is demonstrated, (f) the 35 duplicate OpportunityID groups remain quarantined (70 source rows unless source changes), (g) target reconciliation results match the baseline and are reviewed, and (h) referential-integrity findings are accepted or resolved. Until then, status is **implementation complete for the remaining eight entities; SQL runtime validation pending**.
