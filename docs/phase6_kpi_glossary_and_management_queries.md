@@ -124,21 +124,6 @@ SELECT COALESCE(A.YearMonth,P.YearMonth) AS YearMonth,
 FROM A FULL JOIN P ON P.YearMonth=A.YearMonth AND P.SalesRepKey=A.SalesRepKey;
 ```
 
-## Edge cases and interpretation rules
-
-1. **Zero/missing target:** achievement and coverage ratios are `NULL`, not 0% or infinity; inspect `TargetStatus`.
-2. **No wins in a month:** target achievement displays zero won revenue if a target row exists.
-3. **Undated won/lost record:** excluded from monthly win rate and monthly won revenue because no defensible month attribution exists.
-4. **Unknown/unrecognized stage:** excluded from trusted pipeline and win-rate denominator.
-5. **Bad probability or nonpositive revenue:** excluded from open pipeline; fix upstream or document the exception.
-6. **Current age:** computed against `SYSUTCDATETIME()` and is dynamic. Do not compare snapshots unless snapshot history is implemented.
-7. **Duplicate opportunities:** all conflicting rows must remain excluded until an authoritative canonical record is approved.
-8. **Opportunity-product line repeats:** valid separate lines may exist; do not deduplicate by `(OpportunityID, ProductID)`.
-9. **Revenue reconciliation:** product `LineRevenueAED` is a separate measure; it is not expected to equal won `EstimatedRevenueAED` until business semantics are validated.
-10. **Fanout:** never directly join opportunity, activity and product-line facts and then sum their measures. Aggregate each fact to a common grain first.
-11. **Historical forecast accuracy:** cannot be reconstructed from current-state opportunity rows alone; future snapshots/change history are required.
-12. **AED assumption:** confirm source currency before presenting the amounts as verified AED in a real business context.
-
 ## Execution and test sequence
 
 1. Ensure schemas and Gold tables exist and `gld.usp_LoadGold` completed successfully.
