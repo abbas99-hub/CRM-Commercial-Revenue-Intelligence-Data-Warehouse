@@ -4,8 +4,6 @@
 
 The `rpt` schema contains reusable SQL views for commercial leadership, Power BI and a future governed AI interface. The views expose a consistent KPI layer and avoid repeating slightly different metric definitions in every dashboard.
 
-**Important assumptions:** monetary measures are labelled AED as required by the project, but the source currency has not yet been independently confirmed. `EstimatedRevenue` is authoritative for won revenue per the project decision. Gold and KPI SQL must be executed against SQL Server before runtime acceptance can be claimed.
-
 ## KPI glossary
 
 | KPI | Definition | Time attribution | Exclusions / caveats |
