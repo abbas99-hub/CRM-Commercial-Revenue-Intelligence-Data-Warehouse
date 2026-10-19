@@ -27,12 +27,6 @@ All dimension-to-fact joins are one-to-many. Facts use surrogate keys for custom
 - `IsTrustedForPipeline` flags whether stage, revenue and probability pass basic trust criteria.
 - `FactOpportunityProduct.LineRevenueAED` is not the authoritative won revenue measure; its total is compared with opportunity `EstimatedRevenue` for reconciliation only.
 - Gross margin is not presented as authoritative until line revenue and estimated cost definitions are confirmed.
-- All monetary fields are named AED per project requirements, but source currency is not independently verified. This remains a source-owner validation assumption.
-- Forecast accuracy / close-date slippage cannot be reconstructed from current-state opportunities without snapshots or change history.
-
-## Refresh strategy
-
-`gld.usp_LoadGold` is a transactional full refresh for a fixed Silver snapshot. It deletes facts before dimensions and reloads all Gold objects. It is idempotent for the same Silver snapshot but is not an incremental/SCD implementation; do not run concurrently with reporting. Production incremental loading would require stable dimension key maintenance and a defined SCD policy.
 
 ## Execution order
 
@@ -52,5 +46,3 @@ All dimension-to-fact joins are one-to-many. Facts use surrogate keys for custom
 - Silver won revenue equals Gold won revenue to the database decimal precision.
 - Unknown-member usage is quantified and explained.
 - Opportunity product-line total is reconciled separately and is not substituted for won revenue.
-
-**Execution status:** SQL scripts are authored; live SQL Server execution and acceptance evidence are still required.
