@@ -1,6 +1,6 @@
 # Publishing this repository to GitHub
 
-1. Create an empty public or private GitHub repository, e.g. `commercial-revenue-intelligence-warehouse`.
+1. Create an empty public or private GitHub repository, e.g. `commercial-revenue-intelligence-data-warehouse`.
 2. Review the sample data and confirm it contains no real customer, employee or confidential information before publishing.
 3. From the project root:
 
