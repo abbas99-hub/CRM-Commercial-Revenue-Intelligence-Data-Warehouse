@@ -43,14 +43,12 @@ Build a SQL-first commercial revenue warehouse with auditable ingestion, conform
 - **Gross Margin:** not authoritative until product line revenue and cost definitions are confirmed and reconciled.
 - **Forecast accuracy / slippage:** unavailable historically from current-state records alone; start collecting dated snapshots.
 
-## Currency contract
-All Gold/reporting monetary fields are documented with `_AED` suffix where practical. The source files do not declare currency. AED is a required project reporting assumption pending confirmation that all input amounts are already AED. No FX conversion will be fabricated. Store currency metadata at ingestion if later supplied.
 
 ## Naming conventions
 - SQL schemas: `brz`, `slv`, `gld`, `rpt`, `ctl` (control/operations).
 - Tables: PascalCase entity names with layer-specific schema (`brz.Opportunities`, `gld.FactOpportunity`).
 - Gold dimensions/facts: `Dim<Entity>`, `Fact<Process>`.
-- Columns: PascalCase source-compatible names in Bronze; descriptive PascalCase in Silver/Gold. Surrogate keys end in `Key`; business identifiers end in `ID`; monetary reporting columns use `_AED`; percentages end in `Pct`; timestamps include `Utc` when UTC.
+- Columns: PascalCase source-compatible names in Bronze; descriptive PascalCase in Silver/Gold. Surrogate keys end in `Key`; business identifiers end in `ID`; reporting columns use `_AED`; percentages end in `Pct`; timestamps include `Utc` when UTC.
 - SQL scripts: `NNN_action_object.sql`, e.g. `010_create_schemas.sql`, `020_create_control_tables.sql`.
 - Python modules and tests: `snake_case.py`, `test_*.py`.
 - Decisions and runbooks: Markdown under `docs/decisions` and `docs/runbooks`.
@@ -88,11 +86,3 @@ commercial-revenue-intelligence-warehouse/
 │   └── transforms/
 └── tests/
 ```
-
-## Architecture gates before Phase 3
-1. Confirm source monetary currency with the source owner.
-2. Obtain decisions for all 35 conflicting opportunity IDs or keep them quarantined.
-3. Confirm whether repeated product pairs are legitimate separate lines and what the line grain represents.
-4. Confirm `EstimatedRevenue`, `LineRevenue`, `EstimatedCost`, discount and quantity semantics.
-5. Reconcile annual and monthly targets and establish target calendar conventions.
-6. Approve stage-to-open/closed mapping and allowed forecast categories.
