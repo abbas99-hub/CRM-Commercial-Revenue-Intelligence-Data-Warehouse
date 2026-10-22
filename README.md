@@ -1,4 +1,4 @@
-<img width="1641" height="1150" alt="data_architecture" src="https://github.com/user-attachments/assets/a2f24584-1b9e-4a5e-9ae5-4d70a01d97c6" />
+<img width="1536" height="1024" alt="data-warehouse-and-business-intelligence" src="https://github.com/user-attachments/assets/ec636275-dddc-408c-9ebb-45640a8a3dca" />
 
 # Commercial Revenue Intelligence Data Warehouse
 
